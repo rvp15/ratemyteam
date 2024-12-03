@@ -15,16 +15,15 @@ const SearchAutoComplete = ({
 }) => {
   const [inputValue, setInputValue] = useState("");
   const [suggestions, setSuggestions] = useState([]);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
+  const [focusedIndex, setFocusedIndex] = useState(-1);
+
 
   const handleInputChange = (e) => {
     setInputValue(e.target.value);
-    onChange(e.target.value);
+    getSuggestions(inputValue)
   };
+
   const getSuggestions = async (inputValue) => {
-    setError(null);
-    setLoading(true);
     console.log(staticData)
    let result = staticData
       .filter((item) =>
@@ -32,24 +31,48 @@ const SearchAutoComplete = ({
       )
       .map((item) => item[dataKey]); // Extract the `Team` string
     setSuggestions(result);
+    setFocusedIndex(-1);
     console.log(suggestions)
   };
 
-  useEffect(() => {
-    if (inputValue.length > 1) {
-        console.log("Input Value:", inputValue);
-
-      getSuggestions(inputValue);
-    }
-
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-}, [inputValue]);
-
 const handleSuggestionClick=(suggestion)=>{
   setInputValue(suggestion);
-  onSelect(suggestion);
   setSuggestions([]);
+  onSelect(suggestion);
 }
+
+const handleKeyDown = (e) => {
+  console.log("Key pressed:", e.key); // Debugging
+  if (suggestions.length === 0) return;
+
+  switch (e.key) {
+    case "ArrowDown":
+      e.preventDefault();
+      setFocusedIndex((prevIndex) =>
+        prevIndex < suggestions.length - 1 ? prevIndex + 1 : 0
+      );
+      break;
+    case "ArrowUp":
+      e.preventDefault();
+      setFocusedIndex((prevIndex) =>
+        prevIndex > 0 ? prevIndex - 1 : suggestions.length - 1
+      );
+      break;
+    case "Enter":
+      e.preventDefault();
+      if (focusedIndex >= 0 && focusedIndex < suggestions.length) {
+        handleSuggestionClick(suggestions[focusedIndex]);
+      }
+      break;
+    case "Escape":
+      e.preventDefault();
+      setSuggestions([]);
+      break;
+    default:
+      break;
+  }
+};
+
   return (
     <div className="search-container">
       <input
@@ -57,14 +80,14 @@ const handleSuggestionClick=(suggestion)=>{
         value={inputValue}
         placeholder={placeholder}
         style={customStyles}
-        onBlur={onBlur}
-        onFocus={onFocus}
         onChange={handleInputChange}
+        onKeyDown={handleKeyDown} // Handle key presses
       />
        {suggestions?.length > 0 && (
         <ul className="suggestions-list" role="listbox">
           <SuggestionList
             suggestions={suggestions}
+            focusedIndex={focusedIndex} 
             onSuggestionClick={handleSuggestionClick}
           />
         </ul>
