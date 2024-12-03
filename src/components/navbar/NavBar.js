@@ -13,7 +13,7 @@ const NavBar = () => {
     <div>
       <Navbar expand="lg" className="bg-body-tertiar nav-bar">
         <Container fluid className="container">
-          <Navbar.Brand href="#">RateMySport</Navbar.Brand>
+          <Navbar.Brand href="#">RateMyTeam</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -26,7 +26,7 @@ const NavBar = () => {
               <Nav href="#action2">About Us</Nav>
             </Nav>
             <SearchAutoComplete
-              placeholder={"Search your sport"}
+              placeholder={"Search your team"}
               staticData={teams}
               dataKey={"Team"}
               customeLoading={<>Loading...</>}
