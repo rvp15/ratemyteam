@@ -32,9 +32,6 @@ const NavBar = () => {
               customeLoading={<>Loading...</>}
               onSelect={(res) => console.log(res)}
               onChange={(input)=>{}}
-              onBlur={(e)=>{}}
-              onFocus={(e)=>{}}
-              
             />
           </Navbar.Collapse>
         </Container>

@@ -8,9 +8,6 @@ const SearchAutoComplete = ({
   dataKey = "",
   customloading = "Loading...",
   onSelect = () => {},
-  onBlur = () => {},
-  onFocus = () => {},
-  onChange = () => {},
   customStyles = {},
 }) => {
   const [inputValue, setInputValue] = useState("");
