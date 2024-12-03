@@ -1,0 +1,2928 @@
+{
+  "Team and Age": [
+    {
+      "Team": "10U Ghost"
+    },
+    {
+      "Team": "13U Springfield Minutemen"
+    },
+    {
+      "Team": "16/17u Ghost Showcase"
+    },
+    {
+      "Team": "17/18u Ghost Showcase"
+    },
+    {
+      "Team": "5 Star NE-11u Peralta"
+    },
+    {
+      "Team": "5 Star NE-14u Peralta"
+    },
+    {
+      "Team": "5 Star NE-14u Peralta Prospects"
+    },
+    {
+      "Team": "5 Star NE-2028/2027 Peralta"
+    },
+    {
+      "Team": "5-Star NE Frye - 2029"
+    },
+    {
+      "Team": "9ers Baseball"
+    },
+    {
+      "Team": "9ers Baseball Black"
+    },
+    {
+      "Team": "Aces 13u"
+    },
+    {
+      "Team": "Aces 14u"
+    },
+    {
+      "Team": "Aces 15u"
+    },
+    {
+      "Team": "Adrenaline Selects"
+    },
+    {
+      "Team": "Bakes Brewers"
+    },
+    {
+      "Team": "Ballistics"
+    },
+    {
+      "Team": "Baseball U Jersey"
+    },
+    {
+      "Team": "Baseball U Jersey 12u"
+    },
+    {
+      "Team": "Baseball U Jersey Orange"
+    },
+    {
+      "Team": "Baseball U Jersey White"
+    },
+    {
+      "Team": "Baseball UPa Pocono 14U"
+    },
+    {
+      "Team": "Baseball UPa Pocono Black - 9U"
+    },
+    {
+      "Team": "Baseball UPa Pocono Orange - 9U"
+    },
+    {
+      "Team": "Bc Cyclones  17U Red"
+    },
+    {
+      "Team": "Bc Cyclones 14u Red"
+    },
+    {
+      "Team": "Bc Cyclones 14u White"
+    },
+    {
+      "Team": "Bc Cyclones 15u Red"
+    },
+    {
+      "Team": "BC Cyclones 16U Red"
+    },
+    {
+      "Team": "Bc Cyclones 16U White"
+    },
+    {
+      "Team": "BC Prospects"
+    },
+    {
+      "Team": "Bear Ballerz"
+    },
+    {
+      "Team": "Bears Baseball Club"
+    },
+    {
+      "Team": "Beekman Bombers"
+    },
+    {
+      "Team": "Bergen Crush (Fall)"
+    },
+    {
+      "Team": "Bethlehem Eagles"
+    },
+    {
+      "Team": "Bethpage Eagles Gold"
+    },
+    {
+      "Team": "Blue Sox (Carolina)"
+    },
+    {
+      "Team": "Blue Sox (Navy)"
+    },
+    {
+      "Team": "BlueClaws Baseball Academy"
+    },
+    {
+      "Team": "Boilermakers 9U"
+    },
+    {
+      "Team": "Bonnie Bulls"
+    },
+    {
+      "Team": "Brick United"
+    },
+    {
+      "Team": "Bridgewater Panthers 10U"
+    },
+    {
+      "Team": "Brooklawn Ballers"
+    },
+    {
+      "Team": "Brooklawn Navy"
+    },
+    {
+      "Team": "Brooklyn Bats 15U"
+    },
+    {
+      "Team": "Brooklyn Bulldogs 9 Orange"
+    },
+    {
+      "Team": "Brooklyn Cougars Red"
+    },
+    {
+      "Team": "Brooklyn Sluggers Academy"
+    },
+    {
+      "Team": "Bucks County Generals 12U Red"
+    },
+    {
+      "Team": "BuxMont Hitmen"
+    },
+    {
+      "Team": "Cage Academy Calicari"
+    },
+    {
+      "Team": "Cage Academy Elite"
+    },
+    {
+      "Team": "Canes NY 15U"
+    },
+    {
+      "Team": "Canes NY 16U"
+    },
+    {
+      "Team": "Caribbean All Stars"
+    },
+    {
+      "Team": "Carteret Nighthawks"
+    },
+    {
+      "Team": "Centercourt Baseball"
+    },
+    {
+      "Team": "Centercourt Baseball (Belford)"
+    },
+    {
+      "Team": "Centercourt Baseball (Cheskis)"
+    },
+    {
+      "Team": "Centercourt Baseball (Marlboro)"
+    },
+    {
+      "Team": "Centercourt Baseball (Marzano )"
+    },
+    {
+      "Team": "Centercourt Baseball (Molnar)"
+    },
+    {
+      "Team": "Centercourt Baseball 11u (Arnesen)"
+    },
+    {
+      "Team": "Centercourt Baseball Bello"
+    },
+    {
+      "Team": "Centercourt Baseball Blue (Aviles)"
+    },
+    {
+      "Team": "Centercourt Baseball Blue- Gillette"
+    },
+    {
+      "Team": "Central Jersey Storm"
+    },
+    {
+      "Team": "Central Union Baseball"
+    },
+    {
+      "Team": "Charlie Baseball"
+    },
+    {
+      "Team": "CJ Phillies"
+    },
+    {
+      "Team": "CJ Rebels DR"
+    },
+    {
+      "Team": "CJ Rebels GP"
+    },
+    {
+      "Team": "CJ Rebels MS"
+    },
+    {
+      "Team": "CJ Rebels TF"
+    },
+    {
+      "Team": "CJ Rebels WH"
+    },
+    {
+      "Team": "CK Cardinals"
+    },
+    {
+      "Team": "CK Cardinals 14"
+    },
+    {
+      "Team": "Ck Cardinals American"
+    },
+    {
+      "Team": "CK Cardinals National"
+    },
+    {
+      "Team": "CK Cardinals Prospects"
+    },
+    {
+      "Team": "CK Cardinals Select"
+    },
+    {
+      "Team": "Clutch Baseball"
+    },
+    {
+      "Team": "Clutch Baseball of Staten Island"
+    },
+    {
+      "Team": "Cobras Baseball NY"
+    },
+    {
+      "Team": "Colossal Baseball 10U Select"
+    },
+    {
+      "Team": "Colossal Baseball 15U 2028 Team"
+    },
+    {
+      "Team": "Colts Neck Pit Vipers"
+    },
+    {
+      "Team": "Combat Gore"
+    },
+    {
+      "Team": "Complete Game Colonials 13u"
+    },
+    {
+      "Team": "Complete Game Colonials 14u"
+    },
+    {
+      "Team": "Complete Game Colonials 15u"
+    },
+    {
+      "Team": "Complete Game Colonials 16U"
+    },
+    {
+      "Team": "Complete Performance Baseball Academy"
+    },
+    {
+      "Team": "Complete Performance Baseball Academy 14u"
+    },
+    {
+      "Team": "Complete Performance Baseball Academy 15u"
+    },
+    {
+      "Team": "Complete Performance Baseball Academy 16u"
+    },
+    {
+      "Team": "Complete Performance Baseball Academy 17/18u"
+    },
+    {
+      "Team": "Delmarva Aces 10U Upstate"
+    },
+    {
+      "Team": "Diamond Jacks 10u"
+    },
+    {
+      "Team": "Diamond Jacks 11u Gold"
+    },
+    {
+      "Team": "Diamond Jacks 13u GOLD (2030)"
+    },
+    {
+      "Team": "Diamond Jacks 13u White (2030)"
+    },
+    {
+      "Team": "Diamond Jacks 14u White (2029)"
+    },
+    {
+      "Team": "Diamond Jacks Super 11s"
+    },
+    {
+      "Team": "Diamond Primed Baseball"
+    },
+    {
+      "Team": "DINGERS"
+    },
+    {
+      "Team": "Double Major 11U"
+    },
+    {
+      "Team": "Double Major 12U"
+    },
+    {
+      "Team": "Double Major Black 13U"
+    },
+    {
+      "Team": "Double Major Black 14U"
+    },
+    {
+      "Team": "Double Major Gold 13U"
+    },
+    {
+      "Team": "Double Major Gold 14U"
+    },
+    {
+      "Team": "DTA 12u"
+    },
+    {
+      "Team": "DTA 13U"
+    },
+    {
+      "Team": "East Brunswick Cubs 10U"
+    },
+    {
+      "Team": "East Brunswick Cubs 12u 25"
+    },
+    {
+      "Team": "East Brunswick Cubs Green 11U"
+    },
+    {
+      "Team": "EBC 12U"
+    },
+    {
+      "Team": "Edison 16U"
+    },
+    {
+      "Team": "Edison Eagles"
+    },
+    {
+      "Team": "EEP Bandits Blue"
+    },
+    {
+      "Team": "EEP Bandits Blue 10s"
+    },
+    {
+      "Team": "EEP Bandits Gray"
+    },
+    {
+      "Team": "EEP Bandits White"
+    },
+    {
+      "Team": "EH Elite"
+    },
+    {
+      "Team": "Elite Baseball"
+    },
+    {
+      "Team": "Elite Per4mance"
+    },
+    {
+      "Team": "Falls Mellonheads"
+    },
+    {
+      "Team": "FB Braves 2028s"
+    },
+    {
+      "Team": "FB Braves 2029s"
+    },
+    {
+      "Team": "FB Braves Navy"
+    },
+    {
+      "Team": "FB Braves Red"
+    },
+    {
+      "Team": "FB Braves White"
+    },
+    {
+      "Team": "FBA Jays 13U"
+    },
+    {
+      "Team": "FBA Jays 13U American"
+    },
+    {
+      "Team": "FBA Jays 13u National"
+    },
+    {
+      "Team": "FBA Jays 14U American"
+    },
+    {
+      "Team": "FBA Jays 15U"
+    },
+    {
+      "Team": "FBA Jays 15U American"
+    },
+    {
+      "Team": "FBA Jays 16U American"
+    },
+    {
+      "Team": "FBT Ghost 13U Navy"
+    },
+    {
+      "Team": "FBT Ghost White"
+    },
+    {
+      "Team": "FBT Pack 10U"
+    },
+    {
+      "Team": "FINEST - NAVY"
+    },
+    {
+      "Team": "Finest 10U"
+    },
+    {
+      "Team": "Fords Falcons"
+    },
+    {
+      "Team": "Freehold Elite 8U"
+    },
+    {
+      "Team": "Freehold Nailers 11U"
+    },
+    {
+      "Team": "Freehold Nailers 12U"
+    },
+    {
+      "Team": "Frozen Ropes Rockies"
+    },
+    {
+      "Team": "FS Prime"
+    },
+    {
+      "Team": "FS Prime 18u"
+    },
+    {
+      "Team": "FTB-PRIME"
+    },
+    {
+      "Team": "Garden State Naturals"
+    },
+    {
+      "Team": "Ghost 215"
+    },
+    {
+      "Team": "Ghost 845"
+    },
+    {
+      "Team": "Ghost Valley Dawgs"
+    },
+    {
+      "Team": "Giants Sluggers"
+    },
+    {
+      "Team": "GOAT Baseball"
+    },
+    {
+      "Team": "Green Brook Gators 8U"
+    },
+    {
+      "Team": "Grind Baseball"
+    },
+    {
+      "Team": "Grindtime"
+    },
+    {
+      "Team": "Grit 11U Black"
+    },
+    {
+      "Team": "Grit 11U Orange"
+    },
+    {
+      "Team": "Grit 12U Silver"
+    },
+    {
+      "Team": "Grit 12U White"
+    },
+    {
+      "Team": "Grit 13U OC"
+    },
+    {
+      "Team": "Grit 13U Red"
+    },
+    {
+      "Team": "Grit 13U Silver"
+    },
+    {
+      "Team": "Grit 13UR"
+    },
+    {
+      "Team": "Grit 14U Knights"
+    },
+    {
+      "Team": "Grit 15UR"
+    },
+    {
+      "Team": "Grit 17UR"
+    },
+    {
+      "Team": "Grit/NEU 14U"
+    },
+    {
+      "Team": "Hamilton Aâ€™s 9u"
+    },
+    {
+      "Team": "Hamilton A's 14U Green"
+    },
+    {
+      "Team": "Hamilton A's Black"
+    },
+    {
+      "Team": "Hamilton A's Green"
+    },
+    {
+      "Team": "Hamilton A's Select 11U"
+    },
+    {
+      "Team": "Hammers Red 15u"
+    },
+    {
+      "Team": "Hammers rising 8â€™s"
+    },
+    {
+      "Team": "HBA Beasts"
+    },
+    {
+      "Team": "HBA Stallions"
+    },
+    {
+      "Team": "HBC Crushers"
+    },
+    {
+      "Team": "HBC Fire"
+    },
+    {
+      "Team": "HBC Rally Cats"
+    },
+    {
+      "Team": "HBC Red"
+    },
+    {
+      "Team": "Hillsborough Raiders"
+    },
+    {
+      "Team": "Hitmen Baseball Elite"
+    },
+    {
+      "Team": "Hooks"
+    },
+    {
+      "Team": "Hornets Baseball"
+    },
+    {
+      "Team": "Howell Bombers 9U"
+    },
+    {
+      "Team": "Howell Fury"
+    },
+    {
+      "Team": "Hudson Valley Hawks"
+    },
+    {
+      "Team": "Hudson Valley Hawks 12u"
+    },
+    {
+      "Team": "Hudson Valley Select"
+    },
+    {
+      "Team": "Hudson Valley Select 12U"
+    },
+    {
+      "Team": "Hudson Valley Storm"
+    },
+    {
+      "Team": "Hustle Baseball"
+    },
+    {
+      "Team": "HV Hawks 11U"
+    },
+    {
+      "Team": "Intensity 15U Grasso"
+    },
+    {
+      "Team": "Intensity Baseball 11U"
+    },
+    {
+      "Team": "Intensity Baseball 12U"
+    },
+    {
+      "Team": "Intensity Baseball 13U"
+    },
+    {
+      "Team": "Intensity Baseball 14U Glatz"
+    },
+    {
+      "Team": "Intensity Baseball 14U LIT"
+    },
+    {
+      "Team": "Intensity Baseball 14U Reeves"
+    },
+    {
+      "Team": "Intensity Baseball 15U Slate"
+    },
+    {
+      "Team": "Intensity Baseball 16U"
+    },
+    {
+      "Team": "Intensity Baseball 18U"
+    },
+    {
+      "Team": "Iron Nine Baseball"
+    },
+    {
+      "Team": "Iron Nine Navy"
+    },
+    {
+      "Team": "Iron Nine North"
+    },
+    {
+      "Team": "Iron Nine Red"
+    },
+    {
+      "Team": "Iron Nine South"
+    },
+    {
+      "Team": "Iron Nine White"
+    },
+    {
+      "Team": "Jackson Raptors"
+    },
+    {
+      "Team": "JACKSON THUNDER"
+    },
+    {
+      "Team": "Jackson Thunder Black"
+    },
+    {
+      "Team": "Jackson Thunder Red"
+    },
+    {
+      "Team": "Jefferson Lightning 14U"
+    },
+    {
+      "Team": "Jersey Boyz Baseball"
+    },
+    {
+      "Team": "JERSEY CITY WARRIORS"
+    },
+    {
+      "Team": "Jersey Giants 15U Black"
+    },
+    {
+      "Team": "Jersey Giants 15U Orange"
+    },
+    {
+      "Team": "Jersey Giants 15U White"
+    },
+    {
+      "Team": "Jersey Giants 16u Black"
+    },
+    {
+      "Team": "Jersey Giants 16U Gray"
+    },
+    {
+      "Team": "Jersey Giants 17u Black"
+    },
+    {
+      "Team": "Jersey Shore Raiders"
+    },
+    {
+      "Team": "Jersey Shore Wildcats"
+    },
+    {
+      "Team": "Jersey State Bombers"
+    },
+    {
+      "Team": "Jersey Storm"
+    },
+    {
+      "Team": "Kearny Thistle"
+    },
+    {
+      "Team": "Keio Academy of New York"
+    },
+    {
+      "Team": "Langan Baseball"
+    },
+    {
+      "Team": "Lawrence Thunder 12U"
+    },
+    {
+      "Team": "LIB Expos"
+    },
+    {
+      "Team": "LIB Expos Black"
+    },
+    {
+      "Team": "Lib Expos Blue"
+    },
+    {
+      "Team": "Little Falls Knights 15u"
+    },
+    {
+      "Team": "Livingston Knights"
+    },
+    {
+      "Team": "LONG ISLAND GATORS"
+    },
+    {
+      "Team": "LQ Diamonds"
+    },
+    {
+      "Team": "Lumberjacks"
+    },
+    {
+      "Team": "Makina Baseball 11u"
+    },
+    {
+      "Team": "Makina Baseball 14U"
+    },
+    {
+      "Team": "Makina Baseball 9U"
+    },
+    {
+      "Team": "Makina Select"
+    },
+    {
+      "Team": "Makina Select 11U"
+    },
+    {
+      "Team": "Makina Select 12U"
+    },
+    {
+      "Team": "Makina Select 16U"
+    },
+    {
+      "Team": "Manalapan Eagles 16U"
+    },
+    {
+      "Team": "Manchester Bombers"
+    },
+    {
+      "Team": "Marlboro Mustangs 9U Gold"
+    },
+    {
+      "Team": "Marlboro Mustangs Gold"
+    },
+    {
+      "Team": "Marucci Prospects New York 12u"
+    },
+    {
+      "Team": "Marucci Prospects New York 13u Blue"
+    },
+    {
+      "Team": "Marucci Prospects New York 15u Gold"
+    },
+    {
+      "Team": "MAVERICKS BASEBALL"
+    },
+    {
+      "Team": "Mercer Baseball Club"
+    },
+    {
+      "Team": "Mid Atlantic Crew"
+    },
+    {
+      "Team": "Mid Atlantic Warriors- American"
+    },
+    {
+      "Team": "Mid Atlantic Warriors- Red"
+    },
+    {
+      "Team": "Mid-Atlantic Ghost"
+    },
+    {
+      "Team": "Millburn 9u"
+    },
+    {
+      "Team": "MILLBURN MILLERS"
+    },
+    {
+      "Team": "Millburn Short Hills"
+    },
+    {
+      "Team": "Milltown Padres"
+    },
+    {
+      "Team": "Monmouth Liberty"
+    },
+    {
+      "Team": "Monmouth Liberty (Dougherty)"
+    },
+    {
+      "Team": "Monmouth Liberty (Lillis)"
+    },
+    {
+      "Team": "Monmouth Liberty 14U"
+    },
+    {
+      "Team": "Mount Olive Marauders"
+    },
+    {
+      "Team": "Mustangs Baseball Club"
+    },
+    {
+      "Team": "National Yard Dogs"
+    },
+    {
+      "Team": "NES Grit Knights 13u"
+    },
+    {
+      "Team": "NES Knights 12u"
+    },
+    {
+      "Team": "NES KNIGHTS 15U"
+    },
+    {
+      "Team": "NES Knights Black 13u"
+    },
+    {
+      "Team": "New Egypt Road Warriors"
+    },
+    {
+      "Team": "New Jersey Thoroughbreds"
+    },
+    {
+      "Team": "New Rochelle Knights"
+    },
+    {
+      "Team": "New York Prospects 2029"
+    },
+    {
+      "Team": "Newark Nike RBI"
+    },
+    {
+      "Team": "NJ Giants 14u"
+    },
+    {
+      "Team": "NJ Marlins"
+    },
+    {
+      "Team": "NJ Marlins 15U American"
+    },
+    {
+      "Team": "NJ Nationals"
+    },
+    {
+      "Team": "NJ RENEGADES"
+    },
+    {
+      "Team": "NJ Renegades 13u"
+    },
+    {
+      "Team": "NJ Rising Rebels 2030"
+    },
+    {
+      "Team": "NJ Velo"
+    },
+    {
+      "Team": "NJ Wolfpack Baseball"
+    },
+    {
+      "Team": "NLB MidAtlantic"
+    },
+    {
+      "Team": "NNJ Voodoo"
+    },
+    {
+      "Team": "North Brunswick Raiders"
+    },
+    {
+      "Team": "North Edison Hawks"
+    },
+    {
+      "Team": "North Jersey Cardinals Red"
+    },
+    {
+      "Team": "North Jersey Diamondbacks 12u Premier Black"
+    },
+    {
+      "Team": "North Jersey Diamondbacks 12u Prime"
+    },
+    {
+      "Team": "North Jersey Diamondbacks 13u Premier Black"
+    },
+    {
+      "Team": "North Jersey Diamondbacks 13u Premier Maroon"
+    },
+    {
+      "Team": "North Jersey Diamondbacks 13u Prospects"
+    },
+    {
+      "Team": "North Jersey Diamondbacks 14u Premier"
+    },
+    {
+      "Team": "North Jersey Diamondbacks 15U Prime"
+    },
+    {
+      "Team": "North Jersey Diamondbacks 9u Prime"
+    },
+    {
+      "Team": "North Jersey Ghost"
+    },
+    {
+      "Team": "North Jersey Giants"
+    },
+    {
+      "Team": "North Jersey Heat"
+    },
+    {
+      "Team": "North Jersey Heat 13U"
+    },
+    {
+      "Team": "Northeast Dodgers 2029s"
+    },
+    {
+      "Team": "Northeast Dodgers Underclass"
+    },
+    {
+      "Team": "Northeast Ghost"
+    },
+    {
+      "Team": "Northeast Ghost White"
+    },
+    {
+      "Team": "Northeast Pride Liberty"
+    },
+    {
+      "Team": "Northeast Pride Prestige"
+    },
+    {
+      "Team": "Northeast Pride Prime"
+    },
+    {
+      "Team": "Northern Westchester Outlaws"
+    },
+    {
+      "Team": "NY Bluebirds 13u B"
+    },
+    {
+      "Team": "NY Bluebirds-643R_15uB"
+    },
+    {
+      "Team": "NY Bluebirds-643R_16u"
+    },
+    {
+      "Team": "NY Bluebirds-646R_15uW"
+    },
+    {
+      "Team": "NY Dynasty"
+    },
+    {
+      "Team": "NY Dynasty 13u"
+    },
+    {
+      "Team": "NY Dynasty Black"
+    },
+    {
+      "Team": "NY Gothams 10u"
+    },
+    {
+      "Team": "NY Gothams 11U National"
+    },
+    {
+      "Team": "NY Gothams 13u"
+    },
+    {
+      "Team": "NY Gothams 15u American"
+    },
+    {
+      "Team": "NY Gothams 15u National"
+    },
+    {
+      "Team": "NY Gothams Ghost 12u"
+    },
+    {
+      "Team": "NY Prospects"
+    },
+    {
+      "Team": "NY Prospects 12U Gold"
+    },
+    {
+      "Team": "NY Prospects Gold"
+    },
+    {
+      "Team": "NY Prospects Richies"
+    },
+    {
+      "Team": "Obsessed"
+    },
+    {
+      "Team": "Obsessed Black"
+    },
+    {
+      "Team": "Obsessed Gold"
+    },
+    {
+      "Team": "Obsessed Recruits"
+    },
+    {
+      "Team": "OC Regulators"
+    },
+    {
+      "Team": "OC Smash 10U 2025"
+    },
+    {
+      "Team": "OC Smash 12U 2024"
+    },
+    {
+      "Team": "OC Smash 14U Navy 2024"
+    },
+    {
+      "Team": "Ocean Surge"
+    },
+    {
+      "Team": "Ocean Surge Select"
+    },
+    {
+      "Team": "Old Bridge Lightning"
+    },
+    {
+      "Team": "OOTP Cyclones"
+    },
+    {
+      "Team": "OOTP Cyclones Futures"
+    },
+    {
+      "Team": "OOTP Cyclones Prospects"
+    },
+    {
+      "Team": "OOTP Cyclones Scouts"
+    },
+    {
+      "Team": "Orcas Baseball"
+    },
+    {
+      "Team": "Pa Rebels"
+    },
+    {
+      "Team": "Pa Rebels - Hafich"
+    },
+    {
+      "Team": "Pa Rebels - Lindros"
+    },
+    {
+      "Team": "PAB Magpies"
+    },
+    {
+      "Team": "Patterson Pirates"
+    },
+    {
+      "Team": "Piedmont Bulls"
+    },
+    {
+      "Team": "Power 5"
+    },
+    {
+      "Team": "PowerBat PS2"
+    },
+    {
+      "Team": "Powerbat/PS2"
+    },
+    {
+      "Team": "PPH Mafia"
+    },
+    {
+      "Team": "PPH Mafia Blue"
+    },
+    {
+      "Team": "PPH Mafia Grey"
+    },
+    {
+      "Team": "PPH Mafia Red"
+    },
+    {
+      "Team": "PPH Mafia White"
+    },
+    {
+      "Team": "Pro Skills 13U"
+    },
+    {
+      "Team": "Pro Skills 13U Black"
+    },
+    {
+      "Team": "Pro Tech"
+    },
+    {
+      "Team": "Prospects Baseball Academy"
+    },
+    {
+      "Team": "Rake Baseball Academy"
+    },
+    {
+      "Team": "RCBC Ghost 11u  Americans"
+    },
+    {
+      "Team": "RCBC Ghost 13U Americans (Prano)"
+    },
+    {
+      "Team": "RCBC Ghost 14U Nationals (Gio)"
+    },
+    {
+      "Team": "RE Red"
+    },
+    {
+      "Team": "RedBlacks"
+    },
+    {
+      "Team": "renegades 13u Pic/Rich"
+    },
+    {
+      "Team": "Renegades 14U white"
+    },
+    {
+      "Team": "Renegades Blue"
+    },
+    {
+      "Team": "Renegades CBB"
+    },
+    {
+      "Team": "Renegades Stars and Stripes Cruz"
+    },
+    {
+      "Team": "Renegades Stars And Stripes Fulco"
+    },
+    {
+      "Team": "RES 14u"
+    },
+    {
+      "Team": "Riot Baseball"
+    },
+    {
+      "Team": "Rise Baseball NJ"
+    },
+    {
+      "Team": "River Vale Revolution"
+    },
+    {
+      "Team": "Roberto Clemente Pirates 17u"
+    },
+    {
+      "Team": "Rockaway Cadets"
+    },
+    {
+      "Team": "Rockland elite 16U"
+    },
+    {
+      "Team": "Rockland Elite Gold"
+    },
+    {
+      "Team": "Rockland Elite National"
+    },
+    {
+      "Team": "Royals Baseball"
+    },
+    {
+      "Team": "Royals Baseball 15u"
+    },
+    {
+      "Team": "RPP Revolution"
+    },
+    {
+      "Team": "Rucci Baseball 10U Carolina"
+    },
+    {
+      "Team": "S.I. Rebels (9U)"
+    },
+    {
+      "Team": "Sabre Baseball"
+    },
+    {
+      "Team": "Sabre Baseball Red"
+    },
+    {
+      "Team": "Sabre Baseball Showcase"
+    },
+    {
+      "Team": "Sandlot Baseball Academy 13U-Kwiatkowski"
+    },
+    {
+      "Team": "Santos 14U Black"
+    },
+    {
+      "Team": "Santos 16U Black"
+    },
+    {
+      "Team": "SBC Riverdogs"
+    },
+    {
+      "Team": "SE Elites 11/12U"
+    },
+    {
+      "Team": "Seneca war eagles"
+    },
+    {
+      "Team": "SFX Huskies 10"
+    },
+    {
+      "Team": "SFX Huskies 11"
+    },
+    {
+      "Team": "SFX Huskies 13"
+    },
+    {
+      "Team": "Showtime Ducks"
+    },
+    {
+      "Team": "Showtime Sharks"
+    },
+    {
+      "Team": "SI Orioles"
+    },
+    {
+      "Team": "SJ Ghost"
+    },
+    {
+      "Team": "SJ Ghost Gray"
+    },
+    {
+      "Team": "SJ Lions Baseball"
+    },
+    {
+      "Team": "SJ SandSharks"
+    },
+    {
+      "Team": "SJ Titans Black"
+    },
+    {
+      "Team": "Sledgehammers Baseball Rising 12U"
+    },
+    {
+      "Team": "Sledgehammers Baseball Rising 13U"
+    },
+    {
+      "Team": "Slims Bulldogs Black 11U"
+    },
+    {
+      "Team": "Slim's Chance Bulldogs 10U- Black"
+    },
+    {
+      "Team": "Sluggers Giants"
+    },
+    {
+      "Team": "SOBA Revolution 8U"
+    },
+    {
+      "Team": "South amboy Hurricanes 12U"
+    },
+    {
+      "Team": "South Jersey Young Guns"
+    },
+    {
+      "Team": "South Jersey Young Guns 15U Navy"
+    },
+    {
+      "Team": "South Jersey Young Guns 2028"
+    },
+    {
+      "Team": "South Jersey Young Guns Calhoun"
+    },
+    {
+      "Team": "South Jersey Young Guns Carolina"
+    },
+    {
+      "Team": "South Plainfield Pride"
+    },
+    {
+      "Team": "South Plainfield Tigers"
+    },
+    {
+      "Team": "Sportika Baseball"
+    },
+    {
+      "Team": "Sportika Baseball Blue"
+    },
+    {
+      "Team": "Sportika Baseball Blue 2026"
+    },
+    {
+      "Team": "Sportika Baseball Blue 2027"
+    },
+    {
+      "Team": "Sportika Baseball National (2027s)"
+    },
+    {
+      "Team": "Sportika Baseball Red"
+    },
+    {
+      "Team": "Sportika Baseball Red ('28/'29s)"
+    },
+    {
+      "Team": "SQUEEZE BASEBALL"
+    },
+    {
+      "Team": "SSL BLue Sox 18u"
+    },
+    {
+      "Team": "Stafford Hitmen"
+    },
+    {
+      "Team": "Stars Baseball Academy"
+    },
+    {
+      "Team": "Staten Island Stealth"
+    },
+    {
+      "Team": "Swag Dogs"
+    },
+    {
+      "Team": "Takeover Baseball"
+    },
+    {
+      "Team": "TBT NY Ballers Hroncich"
+    },
+    {
+      "Team": "TCS Nighthawks"
+    },
+    {
+      "Team": "Team Central"
+    },
+    {
+      "Team": "Team Elite Liberty"
+    },
+    {
+      "Team": "Team Elite Liberty Black"
+    },
+    {
+      "Team": "Teaneck Southern 14U"
+    },
+    {
+      "Team": "Teaneck Tigers"
+    },
+    {
+      "Team": "Teel Ravens"
+    },
+    {
+      "Team": "Thoroughbred Baseball Academy"
+    },
+    {
+      "Team": "Thoroughbred Baseball Academy 2"
+    },
+    {
+      "Team": "Thoroughbred Baseball Academy A"
+    },
+    {
+      "Team": "Thoroughbred Baseball Academy Gibbs"
+    },
+    {
+      "Team": "Thoroughbred Baseball Academy Krawchuk"
+    },
+    {
+      "Team": "Throroughbred Baseball Academy"
+    },
+    {
+      "Team": "Tinton falls Diamondbacks"
+    },
+    {
+      "Team": "TKR Reds 16U"
+    },
+    {
+      "Team": "TKR Reds West"
+    },
+    {
+      "Team": "TKR Reds White"
+    },
+    {
+      "Team": "Toms River Elite 9u Navy"
+    },
+    {
+      "Team": "Tri-City Wolves"
+    },
+    {
+      "Team": "Triple Crown"
+    },
+    {
+      "Team": "Tri-State Arsenal 13U Prime"
+    },
+    {
+      "Team": "Tri-State Arsenal Monmouth 12U Marucci"
+    },
+    {
+      "Team": "Tri-State Arsenal Monmouth 12u Prime"
+    },
+    {
+      "Team": "Tri-State Arsenal Monmouth 13U Marucci"
+    },
+    {
+      "Team": "Tri-State Arsenal Monmouth Victus 13U"
+    },
+    {
+      "Team": "Tri-State Ghost"
+    },
+    {
+      "Team": "Tri-State Outlaws Doty"
+    },
+    {
+      "Team": "Tri-State Outlaws Pena"
+    },
+    {
+      "Team": "TTBA - Hunter"
+    },
+    {
+      "Team": "UC Spartans"
+    },
+    {
+      "Team": "Untamed Blue"
+    },
+    {
+      "Team": "Untamed Gold"
+    },
+    {
+      "Team": "Untamed Prospects"
+    },
+    {
+      "Team": "Untamed Scouts"
+    },
+    {
+      "Team": "Untamed Select 17s"
+    },
+    {
+      "Team": "Untamed Silver"
+    },
+    {
+      "Team": "Untamed White"
+    },
+    {
+      "Team": "USA prime ne 13u navy"
+    },
+    {
+      "Team": "USA Prime NE Gold"
+    },
+    {
+      "Team": "USA Prime North Jersey 9u Gold"
+    },
+    {
+      "Team": "USA Prime Northeast 13U Gold"
+    },
+    {
+      "Team": "USA Prime Northeast Gold North Jersey"
+    },
+    {
+      "Team": "USA Prime Northeast Stars"
+    },
+    {
+      "Team": "USA Prime Northeast Stripes"
+    },
+    {
+      "Team": "Valley Dogs"
+    },
+    {
+      "Team": "Vernon Cyclones"
+    },
+    {
+      "Team": "Warehouse Dust Devils '28 Black"
+    },
+    {
+      "Team": "Warehouse Dust Devils '28 Purple"
+    },
+    {
+      "Team": "Warehouse Dust Devils '28 White"
+    },
+    {
+      "Team": "Warehouse Indians '27 Black"
+    },
+    {
+      "Team": "Warehouse Indians '27 Purple"
+    },
+    {
+      "Team": "Warehouse Mariachis Black"
+    },
+    {
+      "Team": "Warehouse Mariachis Purple"
+    },
+    {
+      "Team": "Warrington Wolverines"
+    },
+    {
+      "Team": "Warriors"
+    },
+    {
+      "Team": "Warriors 14u"
+    },
+    {
+      "Team": "Washingtonville hawks orange"
+    },
+    {
+      "Team": "Watchung Hills Warriors"
+    },
+    {
+      "Team": "Watchung Hills Warriors 9U Gray"
+    },
+    {
+      "Team": "Wayne PAL Wolfpack 14u"
+    },
+    {
+      "Team": "Wheelhouse Marauders"
+    },
+    {
+      "Team": "Wild Athletics"
+    },
+    {
+      "Team": "Wild B.C. 14U (Ballester)"
+    },
+    {
+      "Team": "Wild BC"
+    },
+    {
+      "Team": "Wild BC 14U"
+    },
+    {
+      "Team": "WILLIS OTÃÃ‘EZ BASEBALL ACADEMY RED"
+    },
+    {
+      "Team": "Willis OtÃ¡Ã±ez Baseball Academy RED 16U"
+    },
+    {
+      "Team": "WILLIS OTANEZ BASEBALL ACADEMY WHITE"
+    },
+    {
+      "Team": "Wladyka Baseball 13U"
+    },
+    {
+      "Team": "Wladyka Baseball 16U"
+    },
+    {
+      "Team": "Wladyka Baseball American"
+    },
+    {
+      "Team": "Wolfpack 10U"
+    },
+    {
+      "Team": "Wolfpack Baseball"
+    },
+    {
+      "Team": "Woodbridge Barrons"
+    },
+    {
+      "Team": "Wow Factor G's Lions 14U"
+    },
+    {
+      "Team": "WS Hawks"
+    },
+    {
+      "Team": "Zoned Redhawks"
+    }
+  ],
+  "Team Only": [
+    {
+      "Team Only": "Ghost"
+    },
+    {
+      "Team Only": "Springfield Minutemen"
+    },
+    {
+      "Team Only": "Ghost Showcase"
+    },
+    {
+      "Team Only": "5 Star NE- Peralta"
+    },
+    {
+      "Team Only": "5 Star NE- Peralta Prospects"
+    },
+    {
+      "Team Only": "5 Star NE-Peralta"
+    },
+    {
+      "Team Only": "5-Star NE Frye -"
+    },
+    {
+      "Team Only": "9ers Baseball"
+    },
+    {
+      "Team Only": "9ers Baseball Black"
+    },
+    {
+      "Team Only": "Aces"
+    },
+    {
+      "Team Only": "Adrenaline Selects"
+    },
+    {
+      "Team Only": "Bakes Brewers"
+    },
+    {
+      "Team Only": "Ballistics"
+    },
+    {
+      "Team Only": "Baseball U Jersey"
+    },
+    {
+      "Team Only": "Baseball U Jersey Orange"
+    },
+    {
+      "Team Only": "Baseball U Jersey White"
+    },
+    {
+      "Team Only": "Baseball UPa Pocono"
+    },
+    {
+      "Team Only": "Baseball UPa Pocono Black -"
+    },
+    {
+      "Team Only": "Baseball UPa Pocono Orange -"
+    },
+    {
+      "Team Only": "Bc Cyclones   Red"
+    },
+    {
+      "Team Only": "Bc Cyclones  Red"
+    },
+    {
+      "Team Only": "Bc Cyclones  White"
+    },
+    {
+      "Team Only": "BC Prospects"
+    },
+    {
+      "Team Only": "Bear Ballerz"
+    },
+    {
+      "Team Only": "Bears Baseball Club"
+    },
+    {
+      "Team Only": "Beekman Bombers"
+    },
+    {
+      "Team Only": "Bergen Crush (Fall)"
+    },
+    {
+      "Team Only": "Bethlehem Eagles"
+    },
+    {
+      "Team Only": "Bethpage Eagles Gold"
+    },
+    {
+      "Team Only": "Blue Sox (Carolina)"
+    },
+    {
+      "Team Only": "Blue Sox (Navy)"
+    },
+    {
+      "Team Only": "BlueClaws Baseball Academy"
+    },
+    {
+      "Team Only": "Boilermakers"
+    },
+    {
+      "Team Only": "Bonnie Bulls"
+    },
+    {
+      "Team Only": "Brick United"
+    },
+    {
+      "Team Only": "Bridgewater Panthers"
+    },
+    {
+      "Team Only": "Brooklawn Ballers"
+    },
+    {
+      "Team Only": "Brooklawn Navy"
+    },
+    {
+      "Team Only": "Brooklyn Bats"
+    },
+    {
+      "Team Only": "Brooklyn Bulldogs Orange"
+    },
+    {
+      "Team Only": "Brooklyn Cougars Red"
+    },
+    {
+      "Team Only": "Brooklyn Sluggers Academy"
+    },
+    {
+      "Team Only": "Bucks County Generals  Red"
+    },
+    {
+      "Team Only": "BuxMont Hitmen"
+    },
+    {
+      "Team Only": "Cage Academy Calicari"
+    },
+    {
+      "Team Only": "Cage Academy Elite"
+    },
+    {
+      "Team Only": "Canes NY"
+    },
+    {
+      "Team Only": "Caribbean All Stars"
+    },
+    {
+      "Team Only": "Carteret Nighthawks"
+    },
+    {
+      "Team Only": "Centercourt Baseball"
+    },
+    {
+      "Team Only": "Centercourt Baseball (Belford)"
+    },
+    {
+      "Team Only": "Centercourt Baseball (Cheskis)"
+    },
+    {
+      "Team Only": "Centercourt Baseball (Marlboro)"
+    },
+    {
+      "Team Only": "Centercourt Baseball (Marzano )"
+    },
+    {
+      "Team Only": "Centercourt Baseball (Molnar)"
+    },
+    {
+      "Team Only": "Centercourt Baseball  (Arnesen)"
+    },
+    {
+      "Team Only": "Centercourt Baseball Bello"
+    },
+    {
+      "Team Only": "Centercourt Baseball Blue (Aviles)"
+    },
+    {
+      "Team Only": "Centercourt Baseball Blue- Gillette"
+    },
+    {
+      "Team Only": "Central Jersey Storm"
+    },
+    {
+      "Team Only": "Central Union Baseball"
+    },
+    {
+      "Team Only": "Charlie Baseball"
+    },
+    {
+      "Team Only": "CJ Phillies"
+    },
+    {
+      "Team Only": "CJ Rebels DR"
+    },
+    {
+      "Team Only": "CJ Rebels GP"
+    },
+    {
+      "Team Only": "CJ Rebels MS"
+    },
+    {
+      "Team Only": "CJ Rebels TF"
+    },
+    {
+      "Team Only": "CJ Rebels WH"
+    },
+    {
+      "Team Only": "CK Cardinals"
+    },
+    {
+      "Team Only": "Ck Cardinals American"
+    },
+    {
+      "Team Only": "CK Cardinals National"
+    },
+    {
+      "Team Only": "CK Cardinals Prospects"
+    },
+    {
+      "Team Only": "CK Cardinals Select"
+    },
+    {
+      "Team Only": "Clutch Baseball"
+    },
+    {
+      "Team Only": "Clutch Baseball of Staten Island"
+    },
+    {
+      "Team Only": "Cobras Baseball NY"
+    },
+    {
+      "Team Only": "Colossal Baseball  Select"
+    },
+    {
+      "Team Only": "Colossal Baseball   Team"
+    },
+    {
+      "Team Only": "Colts Neck Pit Vipers"
+    },
+    {
+      "Team Only": "Combat Gore"
+    },
+    {
+      "Team Only": "Complete Game Colonials"
+    },
+    {
+      "Team Only": "Complete Performance Baseball Academy"
+    },
+    {
+      "Team Only": "Complete Performance Baseball Academy /"
+    },
+    {
+      "Team Only": "Delmarva Aces  Upstate"
+    },
+    {
+      "Team Only": "Diamond Jacks"
+    },
+    {
+      "Team Only": "Diamond Jacks  Gold"
+    },
+    {
+      "Team Only": "Diamond Jacks  GOLD ()"
+    },
+    {
+      "Team Only": "Diamond Jacks  White ()"
+    },
+    {
+      "Team Only": "Diamond Jacks Super"
+    },
+    {
+      "Team Only": "Diamond Primed Baseball"
+    },
+    {
+      "Team Only": "DINGERS"
+    },
+    {
+      "Team Only": "Double Major"
+    },
+    {
+      "Team Only": "Double Major Black"
+    },
+    {
+      "Team Only": "Double Major Gold"
+    },
+    {
+      "Team Only": "DTA"
+    },
+    {
+      "Team Only": "East Brunswick Cubs"
+    },
+    {
+      "Team Only": "East Brunswick Cubs Green"
+    },
+    {
+      "Team Only": "EBC"
+    },
+    {
+      "Team Only": "Edison"
+    },
+    {
+      "Team Only": "Edison Eagles"
+    },
+    {
+      "Team Only": "EEP Bandits Blue"
+    },
+    {
+      "Team Only": "EEP Bandits Gray"
+    },
+    {
+      "Team Only": "EEP Bandits White"
+    },
+    {
+      "Team Only": "EH Elite"
+    },
+    {
+      "Team Only": "Elite Baseball"
+    },
+    {
+      "Team Only": "Elite Per4mance"
+    },
+    {
+      "Team Only": "Falls Mellonheads"
+    },
+    {
+      "Team Only": "FB Braves"
+    },
+    {
+      "Team Only": "FB Braves Navy"
+    },
+    {
+      "Team Only": "FB Braves Red"
+    },
+    {
+      "Team Only": "FB Braves White"
+    },
+    {
+      "Team Only": "FBA Jays"
+    },
+    {
+      "Team Only": "FBA Jays  American"
+    },
+    {
+      "Team Only": "FBA Jays  National"
+    },
+    {
+      "Team Only": "FBT Ghost  Navy"
+    },
+    {
+      "Team Only": "FBT Ghost White"
+    },
+    {
+      "Team Only": "FBT Pack"
+    },
+    {
+      "Team Only": "FINEST - NAVY"
+    },
+    {
+      "Team Only": "Finest"
+    },
+    {
+      "Team Only": "Fords Falcons"
+    },
+    {
+      "Team Only": "Freehold Elite"
+    },
+    {
+      "Team Only": "Freehold Nailers"
+    },
+    {
+      "Team Only": "Frozen Ropes Rockies"
+    },
+    {
+      "Team Only": "FS Prime"
+    },
+    {
+      "Team Only": "FTB-PRIME"
+    },
+    {
+      "Team Only": "Garden State Naturals"
+    },
+    {
+      "Team Only": "Ghost Valley Dawgs"
+    },
+    {
+      "Team Only": "Giants Sluggers"
+    },
+    {
+      "Team Only": "GOAT Baseball"
+    },
+    {
+      "Team Only": "Green Brook Gators"
+    },
+    {
+      "Team Only": "Grind Baseball"
+    },
+    {
+      "Team Only": "Grindtime"
+    },
+    {
+      "Team Only": "Grit  Black"
+    },
+    {
+      "Team Only": "Grit  Orange"
+    },
+    {
+      "Team Only": "Grit  Silver"
+    },
+    {
+      "Team Only": "Grit  White"
+    },
+    {
+      "Team Only": "Grit  OC"
+    },
+    {
+      "Team Only": "Grit  Red"
+    },
+    {
+      "Team Only": "Grit"
+    },
+    {
+      "Team Only": "Grit  Knights"
+    },
+    {
+      "Team Only": "Grit/NEU"
+    },
+    {
+      "Team Only": "Hamilton Aâ€™s"
+    },
+    {
+      "Team Only": "Hamilton A's  Green"
+    },
+    {
+      "Team Only": "Hamilton A's Black"
+    },
+    {
+      "Team Only": "Hamilton A's Green"
+    },
+    {
+      "Team Only": "Hamilton A's Select"
+    },
+    {
+      "Team Only": "Hammers Red"
+    },
+    {
+      "Team Only": "Hammers rising 8â€™s"
+    },
+    {
+      "Team Only": "HBA Beasts"
+    },
+    {
+      "Team Only": "HBA Stallions"
+    },
+    {
+      "Team Only": "HBC Crushers"
+    },
+    {
+      "Team Only": "HBC Fire"
+    },
+    {
+      "Team Only": "HBC Rally Cats"
+    },
+    {
+      "Team Only": "HBC Red"
+    },
+    {
+      "Team Only": "Hillsborough Raiders"
+    },
+    {
+      "Team Only": "Hitmen Baseball Elite"
+    },
+    {
+      "Team Only": "Hooks"
+    },
+    {
+      "Team Only": "Hornets Baseball"
+    },
+    {
+      "Team Only": "Howell Bombers"
+    },
+    {
+      "Team Only": "Howell Fury"
+    },
+    {
+      "Team Only": "Hudson Valley Hawks"
+    },
+    {
+      "Team Only": "Hudson Valley Select"
+    },
+    {
+      "Team Only": "Hudson Valley Storm"
+    },
+    {
+      "Team Only": "Hustle Baseball"
+    },
+    {
+      "Team Only": "HV Hawks"
+    },
+    {
+      "Team Only": "Intensity  Grasso"
+    },
+    {
+      "Team Only": "Intensity Baseball"
+    },
+    {
+      "Team Only": "Intensity Baseball  Glatz"
+    },
+    {
+      "Team Only": "Intensity Baseball  LIT"
+    },
+    {
+      "Team Only": "Intensity Baseball  Reeves"
+    },
+    {
+      "Team Only": "Intensity Baseball  Slate"
+    },
+    {
+      "Team Only": "Iron Nine Baseball"
+    },
+    {
+      "Team Only": "Iron Nine Navy"
+    },
+    {
+      "Team Only": "Iron Nine North"
+    },
+    {
+      "Team Only": "Iron Nine Red"
+    },
+    {
+      "Team Only": "Iron Nine South"
+    },
+    {
+      "Team Only": "Iron Nine White"
+    },
+    {
+      "Team Only": "Jackson Raptors"
+    },
+    {
+      "Team Only": "JACKSON THUNDER"
+    },
+    {
+      "Team Only": "Jackson Thunder Black"
+    },
+    {
+      "Team Only": "Jackson Thunder Red"
+    },
+    {
+      "Team Only": "Jefferson Lightning"
+    },
+    {
+      "Team Only": "Jersey Boyz Baseball"
+    },
+    {
+      "Team Only": "JERSEY CITY WARRIORS"
+    },
+    {
+      "Team Only": "Jersey Giants  Black"
+    },
+    {
+      "Team Only": "Jersey Giants  Orange"
+    },
+    {
+      "Team Only": "Jersey Giants  White"
+    },
+    {
+      "Team Only": "Jersey Giants  Gray"
+    },
+    {
+      "Team Only": "Jersey Shore Raiders"
+    },
+    {
+      "Team Only": "Jersey Shore Wildcats"
+    },
+    {
+      "Team Only": "Jersey State Bombers"
+    },
+    {
+      "Team Only": "Jersey Storm"
+    },
+    {
+      "Team Only": "Kearny Thistle"
+    },
+    {
+      "Team Only": "Keio Academy of New York"
+    },
+    {
+      "Team Only": "Langan Baseball"
+    },
+    {
+      "Team Only": "Lawrence Thunder"
+    },
+    {
+      "Team Only": "LIB Expos"
+    },
+    {
+      "Team Only": "LIB Expos Black"
+    },
+    {
+      "Team Only": "Lib Expos Blue"
+    },
+    {
+      "Team Only": "Little Falls Knights"
+    },
+    {
+      "Team Only": "Livingston Knights"
+    },
+    {
+      "Team Only": "LONG ISLAND GATORS"
+    },
+    {
+      "Team Only": "LQ Diamonds"
+    },
+    {
+      "Team Only": "Lumberjacks"
+    },
+    {
+      "Team Only": "Makina Baseball"
+    },
+    {
+      "Team Only": "Makina Select"
+    },
+    {
+      "Team Only": "Manalapan Eagles"
+    },
+    {
+      "Team Only": "Manchester Bombers"
+    },
+    {
+      "Team Only": "Marlboro Mustangs  Gold"
+    },
+    {
+      "Team Only": "Marlboro Mustangs Gold"
+    },
+    {
+      "Team Only": "Marucci Prospects New York"
+    },
+    {
+      "Team Only": "Marucci Prospects New York  Blue"
+    },
+    {
+      "Team Only": "Marucci Prospects New York  Gold"
+    },
+    {
+      "Team Only": "MAVERICKS BASEBALL"
+    },
+    {
+      "Team Only": "Mercer Baseball Club"
+    },
+    {
+      "Team Only": "Mid Atlantic Crew"
+    },
+    {
+      "Team Only": "Mid Atlantic Warriors- American"
+    },
+    {
+      "Team Only": "Mid Atlantic Warriors- Red"
+    },
+    {
+      "Team Only": "Mid-Atlantic Ghost"
+    },
+    {
+      "Team Only": "Millburn"
+    },
+    {
+      "Team Only": "MILLBURN MILLERS"
+    },
+    {
+      "Team Only": "Millburn Short Hills"
+    },
+    {
+      "Team Only": "Milltown Padres"
+    },
+    {
+      "Team Only": "Monmouth Liberty"
+    },
+    {
+      "Team Only": "Monmouth Liberty (Dougherty)"
+    },
+    {
+      "Team Only": "Monmouth Liberty (Lillis)"
+    },
+    {
+      "Team Only": "Mount Olive Marauders"
+    },
+    {
+      "Team Only": "Mustangs Baseball Club"
+    },
+    {
+      "Team Only": "National Yard Dogs"
+    },
+    {
+      "Team Only": "NES Grit Knights"
+    },
+    {
+      "Team Only": "NES Knights"
+    },
+    {
+      "Team Only": "NES Knights Black"
+    },
+    {
+      "Team Only": "New Egypt Road Warriors"
+    },
+    {
+      "Team Only": "New Jersey Thoroughbreds"
+    },
+    {
+      "Team Only": "New Rochelle Knights"
+    },
+    {
+      "Team Only": "New York Prospects"
+    },
+    {
+      "Team Only": "Newark Nike RBI"
+    },
+    {
+      "Team Only": "NJ Giants"
+    },
+    {
+      "Team Only": "NJ Marlins"
+    },
+    {
+      "Team Only": "NJ Marlins  American"
+    },
+    {
+      "Team Only": "NJ Nationals"
+    },
+    {
+      "Team Only": "NJ RENEGADES"
+    },
+    {
+      "Team Only": "NJ Rising Rebels"
+    },
+    {
+      "Team Only": "NJ Velo"
+    },
+    {
+      "Team Only": "NJ Wolfpack Baseball"
+    },
+    {
+      "Team Only": "NLB MidAtlantic"
+    },
+    {
+      "Team Only": "NNJ Voodoo"
+    },
+    {
+      "Team Only": "North Brunswick Raiders"
+    },
+    {
+      "Team Only": "North Edison Hawks"
+    },
+    {
+      "Team Only": "North Jersey Cardinals Red"
+    },
+    {
+      "Team Only": "North Jersey Diamondbacks  Premier Black"
+    },
+    {
+      "Team Only": "North Jersey Diamondbacks  Prime"
+    },
+    {
+      "Team Only": "North Jersey Diamondbacks  Premier Maroon"
+    },
+    {
+      "Team Only": "North Jersey Diamondbacks  Prospects"
+    },
+    {
+      "Team Only": "North Jersey Diamondbacks  Premier"
+    },
+    {
+      "Team Only": "North Jersey Ghost"
+    },
+    {
+      "Team Only": "North Jersey Giants"
+    },
+    {
+      "Team Only": "North Jersey Heat"
+    },
+    {
+      "Team Only": "Northeast Dodgers"
+    },
+    {
+      "Team Only": "Northeast Dodgers Underclass"
+    },
+    {
+      "Team Only": "Northeast Ghost"
+    },
+    {
+      "Team Only": "Northeast Ghost White"
+    },
+    {
+      "Team Only": "Northeast Pride Liberty"
+    },
+    {
+      "Team Only": "Northeast Pride Prestige"
+    },
+    {
+      "Team Only": "Northeast Pride Prime"
+    },
+    {
+      "Team Only": "Northern Westchester Outlaws"
+    },
+    {
+      "Team Only": "NY Bluebirds  B"
+    },
+    {
+      "Team Only": "NY Bluebirds"
+    },
+    {
+      "Team Only": "NY Dynasty"
+    },
+    {
+      "Team Only": "NY Dynasty Black"
+    },
+    {
+      "Team Only": "NY Gothams"
+    },
+    {
+      "Team Only": "NY Gothams  National"
+    },
+    {
+      "Team Only": "NY Gothams  American"
+    },
+    {
+      "Team Only": "NY Gothams Ghost"
+    },
+    {
+      "Team Only": "NY Prospects"
+    },
+    {
+      "Team Only": "NY Prospects  Gold"
+    },
+    {
+      "Team Only": "NY Prospects Gold"
+    },
+    {
+      "Team Only": "NY Prospects Richies"
+    },
+    {
+      "Team Only": "Obsessed"
+    },
+    {
+      "Team Only": "Obsessed Black"
+    },
+    {
+      "Team Only": "Obsessed Gold"
+    },
+    {
+      "Team Only": "Obsessed Recruits"
+    },
+    {
+      "Team Only": "OC Regulators"
+    },
+    {
+      "Team Only": "OC Smash"
+    },
+    {
+      "Team Only": "OC Smash  Navy"
+    },
+    {
+      "Team Only": "Ocean Surge"
+    },
+    {
+      "Team Only": "Ocean Surge Select"
+    },
+    {
+      "Team Only": "Old Bridge Lightning"
+    },
+    {
+      "Team Only": "OOTP Cyclones"
+    },
+    {
+      "Team Only": "OOTP Cyclones Futures"
+    },
+    {
+      "Team Only": "OOTP Cyclones Prospects"
+    },
+    {
+      "Team Only": "OOTP Cyclones Scouts"
+    },
+    {
+      "Team Only": "Orcas Baseball"
+    },
+    {
+      "Team Only": "Pa Rebels"
+    },
+    {
+      "Team Only": "Pa Rebels - Hafich"
+    },
+    {
+      "Team Only": "Pa Rebels - Lindros"
+    },
+    {
+      "Team Only": "PAB Magpies"
+    },
+    {
+      "Team Only": "Patterson Pirates"
+    },
+    {
+      "Team Only": "Piedmont Bulls"
+    },
+    {
+      "Team Only": "Power 5"
+    },
+    {
+      "Team Only": "PowerBat PS2"
+    },
+    {
+      "Team Only": "Powerbat/PS2"
+    },
+    {
+      "Team Only": "PPH Mafia"
+    },
+    {
+      "Team Only": "PPH Mafia Blue"
+    },
+    {
+      "Team Only": "PPH Mafia Grey"
+    },
+    {
+      "Team Only": "PPH Mafia Red"
+    },
+    {
+      "Team Only": "PPH Mafia White"
+    },
+    {
+      "Team Only": "Pro Skills"
+    },
+    {
+      "Team Only": "Pro Skills  Black"
+    },
+    {
+      "Team Only": "Pro Tech"
+    },
+    {
+      "Team Only": "Prospects Baseball Academy"
+    },
+    {
+      "Team Only": "Rake Baseball Academy"
+    },
+    {
+      "Team Only": "RCBC Ghost   Americans"
+    },
+    {
+      "Team Only": "RCBC Ghost  Americans (Prano)"
+    },
+    {
+      "Team Only": "RCBC Ghost  Nationals (Gio)"
+    },
+    {
+      "Team Only": "RE Red"
+    },
+    {
+      "Team Only": "RedBlacks"
+    },
+    {
+      "Team Only": "renegades  Pic/Rich"
+    },
+    {
+      "Team Only": "Renegades  white"
+    },
+    {
+      "Team Only": "Renegades Blue"
+    },
+    {
+      "Team Only": "Renegades CBB"
+    },
+    {
+      "Team Only": "Renegades Stars and Stripes Cruz"
+    },
+    {
+      "Team Only": "Renegades Stars And Stripes Fulco"
+    },
+    {
+      "Team Only": "RES"
+    },
+    {
+      "Team Only": "Riot Baseball"
+    },
+    {
+      "Team Only": "Rise Baseball NJ"
+    },
+    {
+      "Team Only": "River Vale Revolution"
+    },
+    {
+      "Team Only": "Roberto Clemente Pirates"
+    },
+    {
+      "Team Only": "Rockaway Cadets"
+    },
+    {
+      "Team Only": "Rockland elite"
+    },
+    {
+      "Team Only": "Rockland Elite Gold"
+    },
+    {
+      "Team Only": "Rockland Elite National"
+    },
+    {
+      "Team Only": "Royals Baseball"
+    },
+    {
+      "Team Only": "RPP Revolution"
+    },
+    {
+      "Team Only": "Rucci Baseball  Carolina"
+    },
+    {
+      "Team Only": "S.I. Rebels ()"
+    },
+    {
+      "Team Only": "Sabre Baseball"
+    },
+    {
+      "Team Only": "Sabre Baseball Red"
+    },
+    {
+      "Team Only": "Sabre Baseball Showcase"
+    },
+    {
+      "Team Only": "Sandlot Baseball Academy -Kwiatkowski"
+    },
+    {
+      "Team Only": "Santos  Black"
+    },
+    {
+      "Team Only": "SBC Riverdogs"
+    },
+    {
+      "Team Only": "SE Elites /"
+    },
+    {
+      "Team Only": "Seneca war eagles"
+    },
+    {
+      "Team Only": "SFX Huskies"
+    },
+    {
+      "Team Only": "Showtime Ducks"
+    },
+    {
+      "Team Only": "Showtime Sharks"
+    },
+    {
+      "Team Only": "SI Orioles"
+    },
+    {
+      "Team Only": "SJ Ghost"
+    },
+    {
+      "Team Only": "SJ Ghost Gray"
+    },
+    {
+      "Team Only": "SJ Lions Baseball"
+    },
+    {
+      "Team Only": "SJ SandSharks"
+    },
+    {
+      "Team Only": "SJ Titans Black"
+    },
+    {
+      "Team Only": "Sledgehammers Baseball Rising"
+    },
+    {
+      "Team Only": "Slims Bulldogs Black"
+    },
+    {
+      "Team Only": "Slim's Chance Bulldogs - Black"
+    },
+    {
+      "Team Only": "Sluggers Giants"
+    },
+    {
+      "Team Only": "SOBA Revolution"
+    },
+    {
+      "Team Only": "South amboy Hurricanes"
+    },
+    {
+      "Team Only": "South Jersey Young Guns"
+    },
+    {
+      "Team Only": "South Jersey Young Guns  Navy"
+    },
+    {
+      "Team Only": "South Jersey Young Guns Calhoun"
+    },
+    {
+      "Team Only": "South Jersey Young Guns Carolina"
+    },
+    {
+      "Team Only": "South Plainfield Pride"
+    },
+    {
+      "Team Only": "South Plainfield Tigers"
+    },
+    {
+      "Team Only": "Sportika Baseball"
+    },
+    {
+      "Team Only": "Sportika Baseball Blue"
+    },
+    {
+      "Team Only": "Sportika Baseball National"
+    },
+    {
+      "Team Only": "Sportika Baseball Red"
+    },
+    {
+      "Team Only": "SQUEEZE BASEBALL"
+    },
+    {
+      "Team Only": "SSL BLue Sox"
+    },
+    {
+      "Team Only": "Stafford Hitmen"
+    },
+    {
+      "Team Only": "Stars Baseball Academy"
+    },
+    {
+      "Team Only": "Staten Island Stealth"
+    },
+    {
+      "Team Only": "Swag Dogs"
+    },
+    {
+      "Team Only": "Takeover Baseball"
+    },
+    {
+      "Team Only": "TBT NY Ballers Hroncich"
+    },
+    {
+      "Team Only": "TCS Nighthawks"
+    },
+    {
+      "Team Only": "Team Central"
+    },
+    {
+      "Team Only": "Team Elite Liberty"
+    },
+    {
+      "Team Only": "Team Elite Liberty Black"
+    },
+    {
+      "Team Only": "Teaneck Southern"
+    },
+    {
+      "Team Only": "Teaneck Tigers"
+    },
+    {
+      "Team Only": "Teel Ravens"
+    },
+    {
+      "Team Only": "Thoroughbred Baseball Academy"
+    },
+    {
+      "Team Only": "Thoroughbred Baseball Academy 2"
+    },
+    {
+      "Team Only": "Thoroughbred Baseball Academy A"
+    },
+    {
+      "Team Only": "Thoroughbred Baseball Academy Gibbs"
+    },
+    {
+      "Team Only": "Thoroughbred Baseball Academy Krawchuk"
+    },
+    {
+      "Team Only": "Throroughbred Baseball Academy"
+    },
+    {
+      "Team Only": "Tinton falls Diamondbacks"
+    },
+    {
+      "Team Only": "TKR Reds"
+    },
+    {
+      "Team Only": "TKR Reds West"
+    },
+    {
+      "Team Only": "TKR Reds White"
+    },
+    {
+      "Team Only": "Toms River Elite  Navy"
+    },
+    {
+      "Team Only": "Tri-City Wolves"
+    },
+    {
+      "Team Only": "Triple Crown"
+    },
+    {
+      "Team Only": "Tri-State Arsenal  Prime"
+    },
+    {
+      "Team Only": "Tri-State Arsenal Monmouth  Marucci"
+    },
+    {
+      "Team Only": "Tri-State Arsenal Monmouth  Prime"
+    },
+    {
+      "Team Only": "Tri-State Arsenal Monmouth Victus"
+    },
+    {
+      "Team Only": "Tri-State Ghost"
+    },
+    {
+      "Team Only": "Tri-State Outlaws Doty"
+    },
+    {
+      "Team Only": "Tri-State Outlaws Pena"
+    },
+    {
+      "Team Only": "TTBA - Hunter"
+    },
+    {
+      "Team Only": "UC Spartans"
+    },
+    {
+      "Team Only": "Untamed Blue"
+    },
+    {
+      "Team Only": "Untamed Gold"
+    },
+    {
+      "Team Only": "Untamed Prospects"
+    },
+    {
+      "Team Only": "Untamed Scouts"
+    },
+    {
+      "Team Only": "Untamed Select"
+    },
+    {
+      "Team Only": "Untamed Silver"
+    },
+    {
+      "Team Only": "Untamed White"
+    },
+    {
+      "Team Only": "USA prime ne  navy"
+    },
+    {
+      "Team Only": "USA Prime NE Gold"
+    },
+    {
+      "Team Only": "USA Prime North Jersey  Gold"
+    },
+    {
+      "Team Only": "USA Prime Northeast  Gold"
+    },
+    {
+      "Team Only": "USA Prime Northeast Gold North Jersey"
+    },
+    {
+      "Team Only": "USA Prime Northeast Stars"
+    },
+    {
+      "Team Only": "USA Prime Northeast Stripes"
+    },
+    {
+      "Team Only": "Valley Dogs"
+    },
+    {
+      "Team Only": "Vernon Cyclones"
+    },
+    {
+      "Team Only": "Warehouse Dust Devils ' Black"
+    },
+    {
+      "Team Only": "Warehouse Dust Devils ' Purple"
+    },
+    {
+      "Team Only": "Warehouse Dust Devils ' White"
+    },
+    {
+      "Team Only": "Warehouse Indians ' Black"
+    },
+    {
+      "Team Only": "Warehouse Indians ' Purple"
+    },
+    {
+      "Team Only": "Warehouse Mariachis Black"
+    },
+    {
+      "Team Only": "Warehouse Mariachis Purple"
+    },
+    {
+      "Team Only": "Warrington Wolverines"
+    },
+    {
+      "Team Only": "Warriors"
+    },
+    {
+      "Team Only": "Washingtonville hawks orange"
+    },
+    {
+      "Team Only": "Watchung Hills Warriors"
+    },
+    {
+      "Team Only": "Watchung Hills Warriors  Gray"
+    },
+    {
+      "Team Only": "Wayne PAL Wolfpack"
+    },
+    {
+      "Team Only": "Wheelhouse Marauders"
+    },
+    {
+      "Team Only": "Wild Athletics"
+    },
+    {
+      "Team Only": "Wild B.C.  (Ballester)"
+    },
+    {
+      "Team Only": "Wild BC"
+    },
+    {
+      "Team Only": "WILLIS OTÃÃ‘EZ BASEBALL ACADEMY RED"
+    },
+    {
+      "Team Only": "Willis OtÃ¡Ã±ez Baseball Academy RED"
+    },
+    {
+      "Team Only": "WILLIS OTANEZ BASEBALL ACADEMY WHITE"
+    },
+    {
+      "Team Only": "Wladyka Baseball"
+    },
+    {
+      "Team Only": "Wladyka Baseball American"
+    },
+    {
+      "Team Only": "Wolfpack"
+    },
+    {
+      "Team Only": "Wolfpack Baseball"
+    },
+    {
+      "Team Only": "Woodbridge Barrons"
+    },
+    {
+      "Team Only": "Wow Factor G's Lions"
+    },
+    {
+      "Team Only": "WS Hawks"
+    },
+    {
+      "Team Only": "Zoned Redhawks"
+    }
+  ]
+}
