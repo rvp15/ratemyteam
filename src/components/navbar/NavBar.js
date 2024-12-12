@@ -1,42 +1,18 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-
+import { Link } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import SearchAutoComplete from "./SearchAutoComplete";
-import teamData  from "../../assets/mockData/teamDataJson.json";
+import './navbar.css'
 
 const NavBar = () => {
-  const teams = teamData["Team and Age"]; 
  
   return (
-    <div>
-      <Navbar expand="lg" className="bg-body-tertiar nav-bar">
-        <Container fluid className="container">
-          <Navbar.Brand href="#">RateMyTeam</Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
-            <Nav
-              className="me-auto my-2 my-lg-0 nav-link"
-              style={{ maxHeight: "100px" }}
-              navbarScroll
-            >
-              <Nav href="#action1">Search Teams</Nav>
-              <Nav href="#action1">Write a Review</Nav>
-              <Nav href="#action2">About Us</Nav>
+            <Nav className="nav-links">
+              <Nav.Item> <Link to='/home' className="no-underline" >RateMyTeam</Link></Nav.Item>
+            <Nav.Item> <Link to='/searchteams' className="no-underline"><span  >Search Teams</span></Link></Nav.Item>
+             <Nav.Item> <Link  className="no-underline review-link"href="#action1">Write a Review</Link></Nav.Item>
+             <Nav.Item> <Link className="no-underline aboutus-link" href="#action2">About Us</Link></Nav.Item>
+             
             </Nav>
-            <SearchAutoComplete
-              placeholder={"Search your team"}
-              staticData={teams}
-              dataKey={"Team"}
-              customeLoading={<>Loading...</>}
-              onSelect={(res) => console.log(res)}
-              onChange={(input)=>{}}
-            />
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    </div>
   );
 };
 

@@ -1,0 +1,38 @@
+.navbar{
+    background-color: rgb(207, 207, 203);
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 320px) {
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-links{
+        font-size: 14px;
+    }
+   
+}
+@media (max-width: 575px) {
+  
+}
+@media (max-width: 768px) {
+
+
+}
+@media (max-width: 995px) {}

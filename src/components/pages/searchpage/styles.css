@@ -1,0 +1,22 @@
+.page-wrapper {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    width: 100%;             /* Full viewport width */
+    padding-top: 5rem;
+  }
+  
+  .search-container {
+    width: 100%;
+    max-width: 500px; /* Set a max-width to prevent the search box from growing too wide */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+  }
+  .selected-team-display{
+    padding: 50px;
+  
+  }
+  .highlight {
+    font-weight: bold;
+  }
