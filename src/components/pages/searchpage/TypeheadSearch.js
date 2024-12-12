@@ -44,6 +44,7 @@ const TypeheadSearch = () => {
     <div className="page-wrapper">
       <div className="search-container">
         <AsyncTypeahead
+          id="team-search" 
           filterBy={filterBy}
           labelKey={(option) => option} // Directly use option as string
           minLength={3}
