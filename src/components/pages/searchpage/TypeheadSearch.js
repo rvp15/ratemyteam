@@ -12,10 +12,9 @@ const TypeheadSearch = () => {
 
   // Extract team names from mock JSON
   const teamOptions = teamData["Team and Age"].map((item) => item.Team);
+
   const handleSearch = (query) => {
-    setQuery(query); // Update the query for highlighting
-  
-    // Check if query matches text or numbers in options
+    setQuery(query); 
     const filteredOptions = teamOptions.filter((team) =>
       team.toString().toLowerCase().includes(query.toLowerCase())
     );
@@ -39,8 +38,10 @@ const TypeheadSearch = () => {
 
   // Clear only the search input when "X" is clicked
   const clearSearch = () => {
+    console.log("clicked X")
     setQuery(""); // Clear the search query
     setOptions([]); // Clear the search suggestions
+    console.log(query)
   };
   // Bypass client-side filtering
   const filterBy = () => true;
@@ -54,6 +55,7 @@ const TypeheadSearch = () => {
           labelKey={(option) => option} // Directly use option as string
           minLength={3}
           onSearch={handleSearch}
+          search ={query}
           options={options}
           placeholder="Search for a team..."
           onChange={(selectedOptions) => setSelected(selectedOptions)} // Update selected team
@@ -61,13 +63,12 @@ const TypeheadSearch = () => {
             <span>{highlightText(option, query)}</span>
           )}
           maxHeight={null}
-          clearButton={false} 
-          inputProps={{ type: "search" }}
+          
         /> {query && (
           <button
-            className="custom-clear-button"
+          className="custom-clear-button"
            onClick={clearSearch}
-            aria-label="Clear search input"
+          label="Clear search input"
           >
             X
           </button>

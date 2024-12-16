@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center; 
+    position: relative;
   }
   .selected-team-display{
     padding: 50px;
@@ -21,16 +22,17 @@
     font-weight: bold;
   }
   .custom-clear-button {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
+    background-color: transparent;
     border: none;
     font-size: 16px;
-    color: #666;
+    color: #333;
     cursor: pointer;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
   }
+  
   .custom-clear-button:hover {
     color: #000;
   }
