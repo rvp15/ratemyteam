@@ -20,3 +20,69 @@
   .highlight {
     font-weight: bold;
   }
+  .custom-clear-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #666;
+    cursor: pointer;
+  }
+  .custom-clear-button:hover {
+    color: #000;
+  }
+  .selected-team-display {
+    margin-top: 20px;
+  }
+  
+
+  .table-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  .table {
+    width: 100%;
+    border-collapse: separate;  /* Avoid collapsed borders */
+    border-spacing: 0 15px;  /* Add space between rows */
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 20px;  /* Add padding for better spacing */
+    text-align: center;
+  }
+  
+  .table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;  /* Slightly different row color */
+  }
+  
+  .table-bordered {
+    border: 1px solid #ddd;  /* Add border for the table */
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #f1f1f1;  /* Highlight rows on hover */
+  }
+  .team-description {
+    margin-top: 20px;
+    font-size: 16px;
+    font-style: italic;
+    color: #555;
+  }
+  
+  .team-description h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  

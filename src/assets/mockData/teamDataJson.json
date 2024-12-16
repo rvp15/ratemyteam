@@ -1,10 +1,27 @@
 {
   "Team and Age": [
     {
-      "Team": "10U Ghost"
+     "Team": "10U Ghost",
+      "Year": 2023,
+      "Wins": 12,
+      "Losses": 8,
+      "Ties": 3,
+      "WinPercentage": "12 / 23", 
+      "RunsScored": 90,
+      "RunsAllowed": 70,
+      "RunDifferential": "90 - 70",
+      "Description":"The 10U Ghost had an exciting 2023 season with a record of 12 Wins, 8 Losses, and 3 Ties. This results in a Win Percentage of approximately 52.17%, based on a total of 23 games played. The team demonstrated strong offensive and defensive performance, with a total of 90 Runs Scored while allowing only 70 Runs throughout the season. This contributed to a Run Differential of +20, showcasing their competitive edge on the field."
     },
     {
-      "Team": "13U Springfield Minutemen"
+      "Team": "13U Springfield Minutemen",
+      "Year": 2023,
+      "Wins": 15,
+      "Losses": 5,
+      "Ties": 2,
+      "WinPercentage": "15 / 22", 
+      "RunsScored": 110,
+      "RunsAllowed": 80,
+      "RunDifferential": "110 - 80"
     },
     {
       "Team": "16/17u Ghost Showcase"

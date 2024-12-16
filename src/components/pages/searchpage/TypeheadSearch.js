@@ -37,6 +37,11 @@ const TypeheadSearch = () => {
     );
   };
 
+  // Clear only the search input when "X" is clicked
+  const clearSearch = () => {
+    setQuery(""); // Clear the search query
+    setOptions([]); // Clear the search suggestions
+  };
   // Bypass client-side filtering
   const filterBy = () => true;
 
@@ -56,7 +61,17 @@ const TypeheadSearch = () => {
             <span>{highlightText(option, query)}</span>
           )}
           maxHeight={null}
-        />
+          clearButton={false} 
+          inputProps={{ type: "search" }}
+        /> {query && (
+          <button
+            className="custom-clear-button"
+           onClick={clearSearch}
+            aria-label="Clear search input"
+          >
+            X
+          </button>
+        )}
         <SelectedTeamDisplay
           selectedTeam={selected.length > 0 ? selected[0] : null}
         />
