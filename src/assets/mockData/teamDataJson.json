@@ -6,7 +6,7 @@
       "Wins": 12,
       "Losses": 8,
       "Ties": 3,
-      "WinPercentage": "12 / 23", 
+      "WinPercentage": 90, 
       "RunsScored": 90,
       "RunsAllowed": 70,
       "RunDifferential": "90 - 70",

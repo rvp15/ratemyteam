@@ -14,13 +14,12 @@ const TypeheadSearch = () => {
   const teamOptions = teamData["Team and Age"].map((item) => item.Team);
 
   const handleSearch = (query) => {
-    setQuery(query); 
+    setQuery(query);
     const filteredOptions = teamOptions.filter((team) =>
       team.toString().toLowerCase().includes(query.toLowerCase())
     );
     setOptions(filteredOptions.slice(0, 10)); // Update options with filtered results
   };
-  
 
   // Helper function to highlight matching text
   const highlightText = (text, query) => {
@@ -36,13 +35,6 @@ const TypeheadSearch = () => {
     );
   };
 
-  // Clear only the search input when "X" is clicked
-  const clearSearch = () => {
-    console.log("clicked X")
-    setQuery(""); // Clear the search query
-    setOptions([]); // Clear the search suggestions
-    console.log(query)
-  };
   // Bypass client-side filtering
   const filterBy = () => true;
 
@@ -50,12 +42,12 @@ const TypeheadSearch = () => {
     <div className="page-wrapper">
       <div className="search-container">
         <AsyncTypeahead
-          id="team-search" 
+          id="team-search"
           filterBy={filterBy}
           labelKey={(option) => option} // Directly use option as string
-          minLength={3}
+          minLength={1}
           onSearch={handleSearch}
-          search ={query}
+          search={query}
           options={options}
           placeholder="Search for a team..."
           onChange={(selectedOptions) => setSelected(selectedOptions)} // Update selected team
@@ -63,16 +55,8 @@ const TypeheadSearch = () => {
             <span>{highlightText(option, query)}</span>
           )}
           maxHeight={null}
-          
-        /> {query && (
-          <button
-          className="custom-clear-button"
-           onClick={clearSearch}
-          label="Clear search input"
-          >
-            X
-          </button>
-        )}
+          clearButton // Enable the built-in clear button
+        />
         <SelectedTeamDisplay
           selectedTeam={selected.length > 0 ? selected[0] : null}
         />

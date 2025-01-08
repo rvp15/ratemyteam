@@ -1,90 +1,146 @@
 .page-wrapper {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    width: 100%;             /* Full viewport width */
-    padding-top: 5rem;
-  }
-  
-  .search-container {
-    width: 100%;
-    max-width: 500px; /* Set a max-width to prevent the search box from growing too wide */
-    padding: 20px;
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  width: 100%;
+  /* Full viewport width */
+  padding-top: 5rem;
+}
+
+.search-container {
+  width: 100%;
+  max-width: 500px;
+  /* Set a max-width to prevent the search box from growing too wide */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.selected-team-display {
+  padding: 50px;
+
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+
+.selected-team-display {
+  margin-top: 20px;
+}
+
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  /* Avoid collapsed borders */
+  border-spacing: 0 15px;
+  /* Add space between rows */
+}
+
+.table th,
+.table td {
+  padding: 12px 20px;
+  /* Add padding for better spacing */
+  text-align: center;
+}
+
+.table th {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+  /* Slightly different row color */
+}
+
+.table-bordered {
+  border: 1px solid #ddd;
+  /* Add border for the table */
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f1f1f1;
+  /* Highlight rows on hover */
+}
+
+.team-description {
+  margin-top: 20px;
+  font-size: 16px;
+  font-style: italic;
+  color: #555;
+}
+
+.team-description h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
+
+@media (max-width: 320px) {
+  .table-container {
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    position: relative;
+    font-size: 9px;
+    overflow: auto;
+    padding: 0px;
   }
-  .selected-team-display{
-    padding: 50px;
-  
-  }
-  .highlight {
-    font-weight: bold;
-  }
-  .custom-clear-button {
-    background-color: transparent;
-    border: none;
-    font-size: 16px;
-    color: #333;
-    cursor: pointer;
-    position: absolute;
-    right: 25px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  
-  .custom-clear-button:hover {
-    color: #000;
-  }
-  .selected-team-display {
-    margin-top: 20px;
-  }
-  
 
-  .table-container{
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    padding: 20px;
-  }
-  .table {
-    width: 100%;
-    border-collapse: separate;  /* Avoid collapsed borders */
-    border-spacing: 0 15px;  /* Add space between rows */
-  }
-  
-  .table th,
-  .table td {
-    padding: 12px 20px;  /* Add padding for better spacing */
-    text-align: center;
-  }
-  
-  .table th {
-    background-color: #f8f8f8;
-    font-weight: bold;
-  }
-  
-  .table-striped tbody tr:nth-of-type(odd) {
-    background-color: #f9f9f9;  /* Slightly different row color */
-  }
-  
-  .table-bordered {
-    border: 1px solid #ddd;  /* Add border for the table */
-  }
-  
-  .table-hover tbody tr:hover {
-    background-color: #f1f1f1;  /* Highlight rows on hover */
-  }
   .team-description {
-    margin-top: 20px;
-    font-size: 16px;
-    font-style: italic;
-    color: #555;
+    font-size: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .table-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    overflow: auto;
+    padding: 0px;
+  }
+
+  .team-description {
+    font-size: 14px;
   }
   
-  .team-description h5 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
+}
+.rbt-close-content{
+display:none
+}
+/* Mobile Devices */
+@media (max-width: 576px) {
+  .table-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    overflow: auto;
+    padding: 0px;
   }
-  
+
+  .team-description {
+    font-size: 14px;
+  }
+}
+
+/* Tablet Devices (portrait mode and small screens) */
+@media (max-width: 768px) {}
+
+/* Desktop and Larger Devices */
+@media (min-width: 1024px) {}
+
+@media (max-width: 768px) {}
