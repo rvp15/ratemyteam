@@ -45,7 +45,7 @@ const TypeheadSearch = () => {
           id="team-search"
           filterBy={filterBy}
           labelKey={(option) => option} // Directly use option as string
-          minLength={1}
+          minLength={2}
           onSearch={handleSearch}
           search={query}
           options={options}

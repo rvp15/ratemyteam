@@ -1,0 +1,146 @@
+
+  /* Styling for the Feedback Form */
+  .feedback-form {
+    width: 100%; /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff; /* White background for the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.8rem;
+    padding: 25px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="number"],
+  input[type="text"],
+  select,
+  textarea,
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  /* Styles for Star Ratings */
+  .star-rating {
+    display: flex;
+    gap: 6px;
+    font-size: 30px;
+  }
+  
+  .star-rating .filled {
+    color: #FFD700; /* Gold color for filled stars */
+  }
+  
+  .star-rating .empty {
+    color: #ddd; /* Light gray for empty stars */
+  }
+  
+  /* Checkbox Group for Costs */
+  .checkbox-group {
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  .checkbox-group label {
+    display: block;
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+  
+  .checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Input Fields for Amounts when Hidden Fees or Extra Charges are selected */
+  input[type="number"] {
+    width: 50%; /* Smaller width for amount input */
+    margin-top: 5px;
+  }
+  
+  select {
+    width: 50%; /* Adjust width for frequency dropdown */
+    margin-top: 5px;
+  }
+  
+  /* Radio Buttons for Yes/No Question */
+  .radio-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+  }
+  .radio-btn{
+    padding: 5px;
+  }
+  .radio-btn input[type="radio"]{
+    margin-right: 10px;
+  }
+  .radio-group label {
+    font-size: 1rem;
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for the Hidden Fees and Extra Charges Inputs */
+  .hidden-fee-inputs,
+  .extra-charge-inputs {
+    margin-top: 10px;
+  }
+  
+  .hidden-fee-inputs input,
+  .extra-charge-inputs input {
+    width: 100%; /* Make the input fields fill the width of the form */
+    margin-top: 5px;
+  }
+  
+  /* Styling for the Feedback Section */
+  textarea {
+    margin-top: 10px;
+  }
+  
+  /* Form Group for Submit Button */
+  .form-group button {
+    width: auto; /* Allow button to fit naturally */
+    margin-top: 20px;
+  }
+  
