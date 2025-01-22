@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
-import { FaStar } from 'react-icons/fa'; // Importing a star icon from react-icons
-import './feedbackform.css'
-const FeedbackForm = () => {
+import React, { useState } from "react";
+import { FaStar } from "react-icons/fa"; // Importing a star icon from react-icons
+import "./feedbackform.css";
+
+const FeedbackForm = ({team}) => {
   const [formData, setFormData] = useState({
+    teamName: team,
     overallSatisfaction: 0,
     coachingQuality: 0,
     communication: 0,
@@ -14,17 +16,17 @@ const FeedbackForm = () => {
         uniform: false,
         equipment: false,
       },
-      hiddenFeeAmount: '',  // Store the amount for hidden fees
-      feeFrequency: '',      // Store the frequency (month, quarter, year)
+      hiddenFeeAmount: "", // Store the amount for hidden fees
+      feeFrequency: "", // Store the frequency (month, quarter, year)
       extraChargesAmount: {
-        tournament: '',
-        uniform: '',
-        equipment: '',
-      },  // Store amounts for each extra charge
+        tournament: "",
+        uniform: "",
+        equipment: "",
+      }, // Store amounts for each extra charge
     },
-    progress: '', // for Yes/No question (initially blank)
+    progress: "", // for Yes/No question (initially blank)
     safety: 0,
-    feedback: '', // open-ended feedback
+    feedback: "", // open-ended feedback
   });
 
   // Handle star rating changes
@@ -35,13 +37,13 @@ const FeedbackForm = () => {
   // Handle checkbox changes for costs (hidden fees and extra charges)
   const handleCheckboxChange = (e) => {
     const { name, checked } = e.target;
-    if (name === 'hiddenFees' || name === 'clearBreakdown') {
+    if (name === "hiddenFees" || name === "clearBreakdown") {
       setFormData({
         ...formData,
         costs: { ...formData.costs, [name]: checked },
       });
     } else {
-      const category = e.target.name.split('-')[1]; // Extract category from name
+      const category = e.target.name.split("-")[1]; // Extract category from name
       setFormData({
         ...formData,
         costs: {
@@ -58,7 +60,7 @@ const FeedbackForm = () => {
   // Handle changes in input fields for amounts and frequencies
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-
+  
     if (name === 'hiddenFeeAmount' || name === 'feeFrequency') {
       setFormData({
         ...formData,
@@ -76,8 +78,14 @@ const FeedbackForm = () => {
           },
         },
       });
+    } else {
+      setFormData({
+        ...formData,
+        [name]: value,
+      });
     }
   };
+  
 
   // Handle Yes/No question changes for improvements in skills
   const handleRadioChange = (e) => {
@@ -94,7 +102,7 @@ const FeedbackForm = () => {
   // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form Data Submitted:', formData);
+    console.log("Form Data Submitted:", formData);
   };
 
   // Function to render stars for star ratings
@@ -108,9 +116,12 @@ const FeedbackForm = () => {
           return (
             <FaStar
               key={starRating}
-              className={starRating <= selectedRating ? 'filled' : 'empty'}
+              className={starRating <= selectedRating ? "filled" : "empty"}
               onClick={() => handleStarChange(name, starRating)}
-              style={{ cursor: 'pointer', color: starRating <= selectedRating ? '#FFD700' : '#ddd' }}
+              style={{
+                cursor: "pointer",
+                color: starRating <= selectedRating ? "#FFD700" : "#ddd",
+              }}
             />
           );
         })}
@@ -120,191 +131,194 @@ const FeedbackForm = () => {
 
   return (
     <>
-    <div className="feedback-form">
-      <h2>Sport Program Feedback</h2>
-      <form onSubmit={handleSubmit}>
-        {/* Overall Satisfaction (Star Rating) */}
-        <div className="form-group">
-          <label>How satisfied are you with your child's overall experience?</label>
-          {renderStars('overallSatisfaction')}
-        </div>
-
-        {/* Coaching Quality (Star Rating) */}
-        <div className="form-group">
-          <label>How would you rate the quality of coaching?</label>
-          {renderStars('coachingQuality')}
-        </div>
-
-        {/* Communication (Star Rating) */}
-        <div className="form-group">
-          <label>How would you rate the communication from the program?</label>
-          {renderStars('communication')}
-        </div>
-
-        {/* Facilities (Star Rating) */}
-        <div className="form-group">
-          <label>How satisfied are you with the facilities?</label>
-          {renderStars('facilities')}
-        </div>
-
-        {/* Costs Section */}
-        <div className="form-group">
-          <label>Did you encounter any other fees or charges during the program? Please provide details below</label>
-          <div className="checkbox-group">
-           
+      <div className="feedback-form">
+        <h2>Submit your Feedback for {team}</h2>
+        <form onSubmit={handleSubmit}>
+          {/* Overall Satisfaction (Star Rating) */}
+          <div className="form-group">
             <label>
-              <input
-                type="checkbox"
-                name="extraCharges-tournament"
-                checked={formData.costs.extraCharges.tournament}
-                onChange={handleCheckboxChange}
-              />
-              Tournament Fee
+              How satisfied are you with your child's overall experience?
             </label>
-            {formData.costs.extraCharges.tournament && (
-              <div>
-                <label>Enter the tournament fee amount:</label>
-                <input
-                  type="number"
-                  name="extraChargesAmount-tournament"
-                  value={formData.costs.extraChargesAmount.tournament}
-                  onChange={handleInputChange}
-                  placeholder="Amount"
-                />
-              </div>
-            )}
+            {renderStars("overallSatisfaction")}
+          </div>
+
+          {/* Coaching Quality (Star Rating) */}
+          <div className="form-group">
+            <label>How would you rate the quality of coaching?</label>
+            {renderStars("coachingQuality")}
+          </div>
+
+          {/* Communication (Star Rating) */}
+          <div className="form-group">
             <label>
-              <input
-                type="checkbox"
-                name="extraCharges-uniform"
-                checked={formData.costs.extraCharges.uniform}
-                onChange={handleCheckboxChange}
-              />
-              Uniform Fee
+              How would you rate the communication from the program?
             </label>
-            {formData.costs.extraCharges.uniform && (
-              <div>
-                <label>Enter the uniform fee amount:</label>
-                <input
-                  type="number"
-                  name="extraChargesAmount-uniform"
-                  value={formData.costs.extraChargesAmount.uniform}
-                  onChange={handleInputChange}
-                  placeholder="Amount"
-                />
-              </div>
-            )}
+            {renderStars("communication")}
+          </div>
+
+          <div className="form-group">
+            <label>How satisfied are you with the facilities?</label>
+            <select
+              name="facilities"
+              value={formData.facilities}
+              onChange={handleInputChange}
+            >
+              <option value="Highly Satisfied">Highly Satisfied</option>
+              <option value="Satisfied">Satisfied</option>
+              <option value="Neutral">Neutral</option>
+              <option value="Dissatisfied">Dissatisfied</option>
+            </select>
+          </div>
+          <label>Enter the tournament fee amount:</label>
+          <input
+            type="number"
+            name="extraChargesAmount-tournament"
+            value={formData.costs.extraChargesAmount.tournament}
+            onChange={handleInputChange}
+            placeholder="Amount"
+          />
+
+          {/* Costs Section */}
+          <div className="form-group">
             <label>
-              <input
-                type="checkbox"
-                name="extraCharges-equipment"
-                checked={formData.costs.extraCharges.equipment}
-                onChange={handleCheckboxChange}
-              />
-              Equipment Fee
+              Did you encounter any other fees or charges during the program?
+              Please provide details below
             </label>
-            {formData.costs.extraCharges.equipment && (
-              <div>
-                <label>Enter the equipment fee amount:</label>
+            <div className="checkbox-group">
+              <label>
                 <input
-                  type="number"
-                  name="extraChargesAmount-equipment"
-                  value={formData.costs.extraChargesAmount.equipment}
-                  onChange={handleInputChange}
-                  placeholder="Amount"
+                  type="checkbox"
+                  name="extraCharges-uniform"
+                  checked={formData.costs.extraCharges.uniform}
+                  onChange={handleCheckboxChange}
                 />
-              </div>
-            )}
-             <label>
-              <input
-                type="checkbox"
-                name="hiddenFees"
-                checked={formData.costs.hiddenFees}
-                onChange={handleCheckboxChange}
-              />
-              Other hidden Fees
-            </label>
-            {formData.costs.hiddenFees && (
-              <>
+                Uniform Fee
+              </label>
+              {formData.costs.extraCharges.uniform && (
                 <div>
-                  <label>How much are the other hidden fees?</label>
+                  <label>Enter the uniform fee amount:</label>
                   <input
                     type="number"
-                    name="hiddenFeeAmount"
-                    value={formData.costs.hiddenFeeAmount}
+                    name="extraChargesAmount-uniform"
+                    value={formData.costs.extraChargesAmount.uniform}
                     onChange={handleInputChange}
                     placeholder="Amount"
                   />
                 </div>
+              )}
+              <label>
+                <input
+                  type="checkbox"
+                  name="extraCharges-equipment"
+                  checked={formData.costs.extraCharges.equipment}
+                  onChange={handleCheckboxChange}
+                />
+                Equipment Fee
+              </label>
+              {formData.costs.extraCharges.equipment && (
                 <div>
-                  <label>How often are the hidden fees charged?</label>
-                  <select
-                    name="feeFrequency"
-                    value={formData.costs.feeFrequency}
+                  <label>Enter the equipment fee amount:</label>
+                  <input
+                    type="number"
+                    name="extraChargesAmount-equipment"
+                    value={formData.costs.extraChargesAmount.equipment}
                     onChange={handleInputChange}
-                  >
-                    <option value="">Select Frequency</option>
-                    <option value="month">Per Month</option>
-                    <option value="quarter">Per Quarter</option>
-                    <option value="year">Per Year</option>
-                  </select>
+                    placeholder="Amount"
+                  />
                 </div>
-              </>
-            )}
+              )}
+              <label>
+                <input
+                  type="checkbox"
+                  name="hiddenFees"
+                  checked={formData.costs.hiddenFees}
+                  onChange={handleCheckboxChange}
+                />
+                Other hidden Fees
+              </label>
+              {formData.costs.hiddenFees && (
+                <>
+                  <div>
+                    <label>How much are the other hidden fees?</label>
+                    <input
+                      type="number"
+                      name="hiddenFeeAmount"
+                      value={formData.costs.hiddenFeeAmount}
+                      onChange={handleInputChange}
+                      placeholder="Amount"
+                    />
+                  </div>
+                  <div>
+                    <label>How often are the hidden fees charged?</label>
+                    <select
+                      name="feeFrequency"
+                      value={formData.costs.feeFrequency}
+                      onChange={handleInputChange}
+                    >
+                      <option value="">Select Frequency</option>
+                      <option value="month">Per Month</option>
+                      <option value="quarter">Per Quarter</option>
+                      <option value="year">Per Year</option>
+                    </select>
+                  </div>
+                </>
+              )}
+            </div>
           </div>
-        </div>
 
-        {/* Did you notice improvements in your child's skills? (Yes/No Radio Buttons) */}
-        <div className="form-group">
-          <label>Did you notice improvements in your child's skills?</label>
-          <div>
-            <label  className='radio-btn'>
-              <input
-                type="radio"
-                name="progress"
-                value="Yes"
-                checked={formData.progress === 'Yes'}
-                onChange={handleRadioChange}
-              />
-              Yes
-            </label>
-            <label  className='radio-btn'>
-              <input
-                type="radio"
-                name="progress"
-                value="No"
-                checked={formData.progress === 'No'}
-                onChange={handleRadioChange}
-              />
-              No
-            </label>
+          {/* Did you notice improvements in your child's skills? (Yes/No Radio Buttons) */}
+          <div className="form-group">
+            <label>Did you notice improvements in your child's skills?</label>
+            <div>
+              <label className="radio-btn">
+                <input
+                  type="radio"
+                  name="progress"
+                  value="Yes"
+                  checked={formData.progress === "Yes"}
+                  onChange={handleRadioChange}
+                />
+                Yes
+              </label>
+              <label className="radio-btn">
+                <input
+                  type="radio"
+                  name="progress"
+                  value="No"
+                  checked={formData.progress === "No"}
+                  onChange={handleRadioChange}
+                />
+                No
+              </label>
+            </div>
           </div>
-        </div>
 
-        {/* Safety (Star Rating) */}
-        <div className="form-group">
-          <label>How satisfied are you with the safety measures?</label>
-          {renderStars('safety')}
-        </div>
+          {/* Safety (Star Rating) */}
+          <div className="form-group">
+            <label>How satisfied are you with the safety measures?</label>
+            {renderStars("safety")}
+          </div>
 
-        {/* Open-ended Feedback */}
-        <div className="form-group">
-          <label>What improvements would you recommend for the program or facility?</label>
-          <textarea
-            name="feedback"
-            value={formData.feedback}
-            onChange={handleTextChange}
-            rows="4"
-            placeholder="Share your thoughts..."
-          />
-        </div>
+          {/* Open-ended Feedback */}
+          <div className="form-group">
+            <label>
+              What improvements would you recommend for the program or facility?
+            </label>
+            <textarea
+              name="feedback"
+              value={formData.feedback}
+              onChange={handleTextChange}
+              rows="4"
+              placeholder="Share your thoughts..."
+            />
+          </div>
 
-        {/* Submit Button */}
-        <div className="form-group">
-          <button type="submit">Submit Feedback</button>
-        </div>
-      </form>
-    </div>
+          {/* Submit Button */}
+          <div className="form-group">
+            <button type="submit">Submit Feedback</button>
+          </div>
+        </form>
+      </div>
     </>
   );
 };
