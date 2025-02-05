@@ -132,7 +132,7 @@ const FeedbackForm = ({team}) => {
   return (
     <>
       <div className="feedback-form">
-        <h2>Submit your Feedback for {team}</h2>
+        <h2>Submit your Feedback form for {team}</h2>
         <form onSubmit={handleSubmit}>
           {/* Overall Satisfaction (Star Rating) */}
           <div className="form-group">

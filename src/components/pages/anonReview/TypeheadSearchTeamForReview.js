@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import { AsyncTypeahead } from "react-bootstrap-typeahead";
 import "react-bootstrap-typeahead/css/Typeahead.css";
 import teamData from "../../../assets/mockData/teamDataJson.json";
-import FeedbackForm from "./FeedbackForm";
-import "./feedbackform.css";
+import ReviewForm from "./ReviewForm";
 
-const TypeheadSearchTeam = () => {
+
+const TypeheadSearchTeamForReview = () => {
   const [options, setOptions] = useState([]);
-  const [selected, setSelected] = useState([]); // State to store selected team
+  const [selected, setSelected] = useState(""); // State to store selected team
   const [query, setQuery] = useState(""); // Track the user input for highlighting
 
   // Extract team names from mock JSON
@@ -40,7 +40,7 @@ const TypeheadSearchTeam = () => {
 
   return (
     <div>
-      <h2>Select a team to submit your feedback form</h2>
+      <h2 className="review-heading">Select a team to submit your review</h2>
     <div className="page-wrapper">
       <div className="search-container">
         <AsyncTypeahead
@@ -52,7 +52,7 @@ const TypeheadSearchTeam = () => {
           search={query}
           options={options}
           placeholder="Search for a team..."
-          onChange={(selectedOptions) => setSelected(selectedOptions)} // Update selected team
+          onChange={(selectedOptions) => setSelected(selectedOptions.length>0 ? selectedOptions[0]:"")} // Update selected team
           renderMenuItemChildren={(option) => (
             <span>{highlightText(option, query)}</span>
           )}
@@ -63,10 +63,10 @@ const TypeheadSearchTeam = () => {
       </div>
      
     </div>
-    {selected && selected.length >0 ?  <FeedbackForm team={selected}/> : null}
+    {selected && selected.length >0 ? <ReviewForm team={selected}/> : null}
     
     </div>
   );
 };
 
-export default TypeheadSearchTeam;
+export default TypeheadSearchTeamForReview;
