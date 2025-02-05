@@ -5,32 +5,51 @@ form {
     border-radius: 8px;
     background-color: #f9f9f9;
     box-shadow: 0 4px 8px rgba(110, 28, 28, 0.1);
-  }
-  h2 {
+}
+
+h2 {
     text-align: center;
     color: #333;
     font-size: 24px;
     margin-bottom: 20px;
-  }
-  textarea {
-    min-height: 150px;
-    resize: vertical; /* Allow vertical resizing */
-  }
-  button:hover {
-    background-color: #45a049;
-  }
- 
-  @media (max-width: 600px) {
- .review-heading{
-font-size: 15px;
- }
-  .form-rating{
-    max-width: 90%;
-    font-size: 4px;
-  }
-label{
-    font-size: 15px;
-    font-weight: none;
 }
+
+textarea {
+    min-height: 150px;
+    resize: vertical;
+    /* Allow vertical resizing */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.sucess-submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Use this to center content vertically */
+    align-items: center; /* Use this to center content horizontally */
+    color: #45a049;
+    font-size: 30px;
+    text-align: center; /* Optional: centers the text */
+    padding: 30px;
+}
+
+@media (max-width: 600px) {
+    .review-heading {
+        font-size: 15px;
     }
- 
+
+    .form-rating {
+        max-width: 90%;
+        font-size: 4px;
+    }
+
+    label {
+        font-size: 15px;
+        font-weight: none;
+    }
+    .sucess-submit {
+        font-size: 20px;
+    }
+}

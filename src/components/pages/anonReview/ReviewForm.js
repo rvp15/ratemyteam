@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import StarRatings from "react-star-ratings";
+import { IoIosCheckmarkCircleOutline } from "react-icons/io";
 
 const ReviewForm = ({ team }) => {
   const [reviewFormData, setReviewFormData] = useState({
@@ -7,6 +8,8 @@ const ReviewForm = ({ team }) => {
     rating: 0,
     review: "",
   });
+  const [isSubmitted,setIsSubmitted] = useState(false)
+
   const handleRatingChange = (newrating) => {
     setReviewFormData((prevData) => ({
       ...prevData,
@@ -22,6 +25,7 @@ const ReviewForm = ({ team }) => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
+    setIsSubmitted(true)
     console.log("FormDate:", reviewFormData);
     //reset form
     setReviewFormData({
@@ -33,9 +37,11 @@ const ReviewForm = ({ team }) => {
 
   return (
     <div className="form">
-      <h2 className="review-heading"> Submit Your review for Team: {team}</h2>
-      <form className="form-rating" onSubmit={handleSubmit}>
+     
+       {
+            isSubmitted ? <div className="sucess-submit"><IoIosCheckmarkCircleOutline className="check-mark"/><p>Sucessfully Submitted  </p></div>:  <form className="form-rating" onSubmit={handleSubmit}>
         <div className="start-rating">
+          <h2 className="review-heading"> Submit Your review for Team: {team}</h2>
           <label>Rating</label>
           <StarRatings
             rating={reviewFormData.rating}
@@ -59,6 +65,8 @@ const ReviewForm = ({ team }) => {
         </div>
         <button type="submit">Submit Review</button>
       </form>
+          }
+     
     </div>
   );
 };
